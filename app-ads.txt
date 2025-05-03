@@ -1,0 +1,3 @@
+# app-ads.txt for kira coldspring
+
+google.com, pub-4755343976921278, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,143 @@
+﻿body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-size: 24px;
+    color: goldenrod;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* RESPONSIVE IMAGES */
+.responsive-img {
+    float: left;
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+@media (orientation: landscape) {
+    .responsive-img {
+        width: 50vw;
+    }
+}
+
+/* NAVIGATION */
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.hamburger {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+
+/* NAVIGATION LINKS */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+    .nav-links.open {
+        display: flex;
+    }
+
+/* NAV BUTTON STYLE */
+/* SHARED BUTTON STYLE (used for both nav and footer buttons) */
+.button, .nav-button {
+    background-color: #554433; /* dark brown */
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid black; /* 1px black border */
+    border-radius: 5px; /* 5px rounded corners */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+    .button:hover,
+    .button:active,
+    .nav-button:hover,
+    .nav-button:active {
+        background-color: #885522; /* lighter brown on hover */
+        color: white;
+    }
+
+/* BOTTOM BUTTON CONTAINER */
+.button-container .button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+body.light-mode {
+    background-color: tan;
+    color: black;
+}
+
+    body.light-mode h1 {
+        color: #6b4e16; /* optional: gold-like tone for light mode */
+    }
+
+    body.light-mode .nav-container {
+        background-color: #6b4e16;
+    }
+
+    body.light-mode .nav-button,
+    body.light-mode .button {
+        background-color: #554433; /* tan/light brown for light mode */
+        color: black;
+    }
+
+        body.light-mode .nav-button:hover,
+        body.light-mode .button:hover {
+            background-color: #885522; /* lighter tan */
+            color: black;
+        }
+
+
