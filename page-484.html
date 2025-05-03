@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta charset="UTF-8">
+    <script src="js/theme-toggle.js" defer></script>
     <script src="js/fullscreen.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
 
@@ -11,10 +13,13 @@
 
 <body>
     <nav class="nav-container">
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="about.html" class="nav-button">About</a>
-        <a href="store.html" class="nav-button">Merch</a>
-        <a href="contact.html" class="nav-button">Contact</a>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="page-001.html" class="nav-button">Start Game</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+        </div>
     </nav>
 
 
