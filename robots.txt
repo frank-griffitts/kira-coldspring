@@ -1,4 +1,7 @@
 User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /Illustrations/
 Allow: /
 
 Sitemap: https://kiracoldspring.com/sitemap.xml
