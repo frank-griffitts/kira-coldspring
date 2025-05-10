@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kira Coldspring: The Hunt for Jorsh</title>
     <meta charset="UTF-8">
-    <script src="fullscreen.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
     <nav class="nav-container">
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="about.html" class="nav-button">About</a>
-        <a href="store.html" class="nav-button">Merch</a>
-        <a href="contact.html" class="nav-button">Contact</a>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="page-001.html" class="nav-button">Start Game</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.aethermultimedia.kiracoldspring.paid.app" class="nav-button" target="_blank">Download the FULL App for ONLY $2.99</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+        </div>
     </nav>
-
 
     <div class="main-content">
 
         <div class="spacer"></div>
 
-        <div align="center">
-            <img src="Illustrations/banner_title.png" />
+        <div>
+            <img src="Illustrations/banner_title.png" alt="Banner" class="responsive-banner">
         </div>
 
         <div class="spacer"></div>
@@ -34,12 +38,74 @@
         <div class="spacer"></div>
 
         <div>
-            <h1>Step into the Shadows. Shape Your Destiny.</h1>
+            <h1>Privacy Policy</h1>
         </div>
 
         <div class="content">
 
-            <img src="Illustrations/about-1.jpg" alt="Kira Coldspring" onclick="toggleFullScreen(this)" style="cursor: pointer" class="config1" />
+            <p>We at Kira Coldspring, LLC ("Kira Coldspring", "we", "our", or "us") value your privacy. This Privacy Policy describes the information collected through our mobile and web services, how we use it, and your options regarding this information. This policy is governed by U.S. law.</p>
+
+            <p><strong>1. INFORMATION WE COLLECT</strong></p>
+            <p>We may collect the following information:</p>
+            <ul>
+                <li>Personal Information (e.g., email addresses you provide voluntarily).</li>
+                <li>Non-personal Information (e.g., device type, IP address, browser type, operating system, app usage data).</li>
+                <li>Purchase data via Google Play and Amazon Appstore if you make in-app purchases (e.g., to remove ads). We do not store any payment details; purchases are processed via Google and Amazon directly.</li>
+            </ul>
+
+            <img src="Illustrations/about-1.jpg" alt="Elias" class="responsive-img" />
+
+            <p><strong>2. COOKIES & WEB BEACONS</strong></p>
+            <p>We may use cookies and web beacons to collect user interaction data, which helps us improve our services. You can disable cookies in your browser settings, though some features may not function properly.</p>
+
+            <p><strong>3. ANALYTICS</strong></p>
+            <p>We use third-party analytics tools such as Google Analytics to understand how our apps and websites are used. These services may use cookies and similar technologies. Google Analytics may collect your IP address, device information, and behavior on our platform.</p>
+
+            <p><strong>4. ADVERTISING</strong></p>
+            <p>We display third-party advertisements (e.g., via AdMob and Amazon Publisher Services). These ad networks may collect data such as your device ID, IP address, browser type, and ad interactions using tracking technologies. You may see personalized ads based on your activity. We encourage you to review Google's <a href="https://policies.google.com/technologies/ads">Ad Policy</a> and <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496">Amazon's Privacy Notice</a>.</p>
+            <p>If you wish to remove ads, you may make a one-time in-app purchase. Once purchased, ads will no longer be displayed in your app experience. The purchase is handled securely by Google or Amazon, depending on your platform.</p>
+
+            <p><strong>5. MOBILE APP INFORMATION</strong></p>
+            <p>When using our mobile apps, we may collect information such as device model, OS version, app version, screen resolution, crash logs, and usage statistics. This data helps us improve app performance and stability.</p>
+
+            <img src="Illustrations/about-2.jpg" alt="Elias" class="responsive-img" />
+
+            <p><strong>6. SOCIAL MEDIA</strong></p>
+            <p>If you interact with us via social media, such as liking our pages or sharing content, we may receive information associated with your social media accounts according to the platform's policies.</p>
+
+            <p><strong>7. CHILDREN’S PRIVACY</strong></p>
+            <p>Our services are not directed to children under 13, and we do not knowingly collect personal information from children. If we learn that we have collected personal information from a child under 13, we will delete it immediately. If you believe we have such information, please contact us at fgriffitts@gmail.com.</p>
+
+            <p><strong>8. YOUR RIGHTS AND CHOICES</strong></p>
+            <p>Depending on your location, you may have the right to:</p>
+            <ul>
+                <li>Request access to the data we hold about you.</li>
+                <li>Request correction or deletion of your data.</li>
+                <li>Opt-out of personalized advertising by visiting your device’s ad settings.</li>
+            </ul>
+            <p>You can contact us at fgriffitts@gmail.com to make such requests.</p>
+
+            <img src="Illustrations/about-3.jpg" alt="Elias" class="responsive-img" />
+
+            <p><strong>9. USER-GENERATED CONTENT</strong></p>
+            <p>Please be cautious when posting content publicly. Any personal information disclosed in public areas may be collected and used by others.</p>
+
+            <p><strong>10. SECURITY</strong></p>
+            <p>We implement reasonable measures to protect your information from unauthorized access. However, no transmission or storage system is completely secure.</p>
+
+            <p><strong>11. CHANGES TO THIS POLICY</strong></p>
+            <p>We may update this Privacy Policy periodically. When we do, we will update the effective date below. If significant changes are made, we may notify you via in-app notification or website post.</p>
+            <p>Effective Date: May 9, 2025</p>
+
+            <p><strong>12. CONTACT US</strong></p>
+            <p>If you have questions or concerns about this Privacy Policy or your data, please contact us at:</p>
+            <p>
+                <strong>Kira Coldspring, LLC</strong><br>
+                Website: <a href="https://kiracoldspring.com">https://kiracoldspring.com</a><br>
+                Email: fgriffitts@gmail.com
+            </p>
+
+            <hr />
 
             <p><em>Play as Kira Coldspring,</em> a half-elf ranger with a haunted past and a heart still mending. Raised in the windswept township of Belladonna by a stern half-orc blacksmith, Kira's life has been one of loss, resilience, and survival. But when the Magistrate summons her for one final mission—to hunt down her former lover turned fugitive sorcerer—everything changes.</p>
 
@@ -49,13 +115,9 @@
 
             <p>In this rich, immersive <strong>Choose Your Own Adventure</strong> experience:</p>
 
-            <img src="Illustrations/about-2.jpg" alt="Kira Coldspring" onclick="toggleFullScreen(this)" style="cursor: pointer" class="config1" />
-
             <p>Navigate <strong>118 unique chapters</strong> full of danger, discovery, and difficult choices</p>
             <p>Explore <strong>multiple intertwining storylines</strong> with over <strong>50 possible endings</strong></p>
             <p>Face moral dilemmas, forge alliances, uncover secrets—and live with the consequences</p>
-
-            <img src="Illustrations/about-3.jpg" alt="Kira Coldspring" onclick="toggleFullScreen(this)" style="cursor: pointer" class="config1" />
 
             <p>Choose between <strong>duty and desire</strong>, <strong>vengeance and redemption</strong></p>
 
