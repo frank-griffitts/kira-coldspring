@@ -28,7 +28,7 @@ p {
 /* RESPONSIVE IMAGES */
 .responsive-img {
     float: left;
-    width: 30%;
+    width: 50%;
     max-width: 600px;
     height: auto;
     margin: 10px 20px 10px 0;
