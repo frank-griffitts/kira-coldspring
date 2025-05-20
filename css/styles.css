@@ -25,6 +25,11 @@ p {
     padding: 20px;
 }
 
+.spacer {
+    min-height: 6em; /* Adjust to roughly 6 lines of space */
+}
+
+
 /* RESPONSIVE IMAGES */
 .responsive-img {
     float: left;
