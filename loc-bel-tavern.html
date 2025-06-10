@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/map-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+            <a href="about.html" class="nav-button">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1000;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+    <article class="location-entry">
+        <header class="location-header">
+            <h2>Wyrmblood Flask, Belladonna Tavern</h2>
+        </header>
+
+        <section class="location-exterior">
+            <h3>Exterior Description</h3>
+            <p>
+                The tavern is nestled between leaning timber buildings near the edge of the Belladonna town square.
+                Its moss-covered roof slouches into the street.
+                Above the crooked door hangs a weather-beaten sign depicting a dragon skull dripping red liquid into a goblet.
+                Lanterns of pale amber light swing on rusted hooks.
+                The faint scent of roasted boar and pipe smoke drifts out through the cracked shutters.
+                Locals say the tavern was built atop the bones of a wyrmling slain by Belladonna’s founders.
+                Its wine casks were once baptized in its blood.
+            </p>
+        </section>
+
+        <section class="location-interior">
+            <h3>Interior Description</h3>
+            <p><strong>Main Taproom:</strong> Lit by a massive fireplace with a mounted wyvern skull. Tables are mismatched and the floorboards creak loudly with every step. A three-eyed tabby cat named Mischief lounges on the bar, considered a lucky omen.</p>
+            <p><strong>The Snare Stage:</strong> A small raised platform where minstrels, gamblers, and once—a wrestling kobold—perform nightly.</p>
+            <p><strong>Private Alcoves:</strong> Deep booths with curtains and silencing runes for clandestine meetings. The barkeep charges extra for “discreet ears.”</p>
+            <p><strong>The Cellar:</strong> Barrel-lined and cool, used for ale, bribes, and the occasional corpse. A reinforced trapdoor leads to… something the staff insists is just “rats.”</p>
+            <p><strong>Upstairs Rooms:</strong> Three guest rooms. One is always booked by a mysterious elf who never speaks. Another is rumored haunted. The third is just full of mushrooms for some reason.</p>
+        </section>
+
+        <section class="location-npc">
+            <h3>NPC Stat Block – Trelga Fatsnout, Tavernkeeper</h3>
+            <pre>
+Medium humanoid (half-orc), neutral good
+Level: 3 (Commoner / Fighter hybrid)
+AC: 14 (natural + worn leather)
+HP: 45 (6d8 + 12)
+Speed: 30 ft.
+STR 16 | DEX 10 | CON 14 | INT 11 | WIS 12 | CHA 15
+Skills: Insight +4, Persuasion +4, Athletics +5, Intimidation +3
+Tools: Brewer’s supplies, Cook’s utensils, Club
+Languages: Common, Orc, Thieves’ Cant
+
+Abilities:
+- Brawler’s Reflex: Can make a shove or grapple as a bonus action once per turn.
+- Tavern Tough: Resistant to poison and immune to being frightened while in the Flask.
+- Street Smarts: Advantage on Insight checks to detect lies.
+    </pre>
+        </section>
+
+        <section class="location-backstory">
+            <h3>NPC Backstory</h3>
+            <p>
+                Trelga is a former adventurer turned innkeeper who fought in the War of the Hollow Tree. She keeps a dragonborn’s severed fang behind the bar (reputedly from the eponymous “wyrm”). She has known Baider since their mercenary days and secretly once worked for the Hawthorn family as a courier during the rebellion. Trelga now trades in ale and information, and nothing much escapes her notice in Belladonna. She won’t talk for coin, but she might for trust… or vengeance.
+            </p>
+        </section>
+
+        <section class="location-quest">
+            <h3>Side Quest – “The Whisper in the Keg”</h3>
+            <p>
+                Trelga confides that one of her prized ale barrels is speaking at night, whispering secrets about Varis, Kira, and the Shadow Realm. Inside is a bound homunculus familiar belonging to a murdered sorcerer. Trelga wants the truth — and someone brave enough to “tap the truth” without getting cursed, killed, or possessed.
+            </p>
+            <p><strong>Reward:</strong> The Wyrmblood Token – Advantage on any Charisma check made within Belladonna once per day.</p>
+        </section>
+
+        <section class="location-puzzle">
+            <h3>Hidden Room, Puzzle, and Treasure – The Cursed Keg Puzzle</h3>
+            <p>
+                In the cellar lies a sealed cask marked with black claw sigils. It's locked with three runic bands, each opened with a riddle.
+            </p>
+            <ul>
+                <li><em>"The more you take, the more I grow. What am I?"</em> → Answer: A hole</li>
+                <li><em>"Born of flame, fed by song, I vanish when I’m seen."</em> → Answer: A secret</li>
+                <li><em>"I have no life, but I can die. What am I?"</em> → Answer: A reputation</li>
+            </ul>
+            <p>
+                <strong>Success:</strong> Unlocks the cask containing the homunculus and a map fragment to the Shadow Cisterns.<br>
+                <strong>Failure (3 wrong attempts):</strong> A burst of psychic energy (4d6 psychic, DC 13 Int save for half).
+            </p>
+            <p><strong>Inside the keg:</strong></p>
+            <ul>
+                <li>1 vial of soul-ink</li>
+                <li>A memory crystal containing the last vision of the murdered mage</li>
+                <li>Silver Signet of House Coldspring</li>
+            </ul>
+        </section>
+
+        <section class="location-monsters">
+            <h3>Monsters (If Things Go Wrong)</h3>
+            <ul>
+                <li><strong>Possessed Patron (CR 2):</strong> A drunk unknowingly influenced by the homunculus.</li>
+                <li><strong>Cellar Poltergeist (CR 3):</strong> Haunts the mushroom room upstairs. Immune to mundane weapons.</li>
+                <li><strong>Mischief the Cat (Optional Familiar):</strong> If befriended and fed correctly, it reveals secret passages via tail movements.</li>
+            </ul>
+        </section>
+
+        <section class="location-menu">
+            <h3>Tavern Menu – The Wyrmblood Flask</h3>
+            <h4>Drinks:</h4>
+            <ul>
+                <li><strong>Wyrmblood Reserve (5 gp):</strong> Deep red ale brewed with rare spicebark and draketail berries. Causes mild visions if consumed in excess.</li>
+                <li><strong>Ghostmead (3 gp):</strong> Pale, glowing honey wine said to be brewed from hives haunted by whispering spirits.</li>
+                <li><strong>Blackpine Bitter (2 gp):</strong> A local forest brew with a sharp, earthy finish. Rangers and hunters love it.</li>
+                <li><strong>Moonmilk Shot (4 gp):</strong> A pearlescent liquid served cold. Grants darkvision for 1 hour (once/day).</li>
+                <li><strong>“Just Water” (1 cp):</strong> Not recommended.</li>
+            </ul>
+            <h4>Food:</h4>
+            <ul>
+                <li><strong>Wyvern-Wrapped Bacon Roast (5 sp):</strong> Spicy and savory with an illusion of smoke rising from the plate.</li>
+                <li><strong>Belladonna Boar Pie (4 sp):</strong> Hearty meat pie with flaky crust and secret herbs (one of which is mildly addictive).</li>
+                <li><strong>Vegetarian Options:</strong> “Cabbage Surprise” (2 sp), mostly cabbage.</li>
+                <li><strong>Fangbread (1 sp):</strong> Black crust bread with glowing fungal butter.</li>
+                <li><strong>Mystery Stew (Free if you dare):</strong> Ingredient list varies nightly. May contain tentacles.</li>
+            </ul>
+        </section>
+
+        <section class="location-quotes">
+            <h3>Casual Quotes (Everyday Tavern Banter)</h3>
+            <ul>
+                <li>“Sit where you like, but don’t start no fires. Last time that happened, we had a banshee infestation.”</li>
+                <li>“You look like you’ve marched through the Blackpine. Ale first, questions later.”</li>
+                <li>“Kira Coldspring? Hah! You used to nick pickles from my barrel when you were yay high.”</li>
+                <li>“Baider still owes me for two shattered stools and a crate of elderberry mead. You tell him that.”</li>
+                <li>“No songs about owlbears mating this time. Last bard lost a tooth.”</li>
+                <li>“I don’t serve politics here. Just stew and silence.”</li>
+                <li>“If you can lift that fang behind the bar, I’ll give you a round on the house. Spoiler: no one’s lifted it yet.”</li>
+                <li>“Elias, if you bring another wet pine manticore in here, you’re scrubbing the floors.”</li>
+                <li>“You want the corner booth? That’s fine. But mind the runes on the wood — they bite.”</li>
+                <li>“No weapons drawn unless you're slicing roast. My rules. You don’t like ’em, there’s the door.”</li>
+            </ul>
+        </section>
+
+        <section class="location-secrets">
+            <h3>Secret-Revealing Quotes (Under Tension or in Private)</h3>
+            <ul>
+                <li>“Varis came through here last Solstice. Didn’t touch a drop. Just whispered to a crow and vanished. That’s not politics — that’s sorcery.”</li>
+                <li>“The Wyrmblood Flask was once a smugglers’ den. Still has tunnels below. They ain’t just dusty—they're watched.”</li>
+                <li>“That sword Kira carries? Boughreaper? I saw one like it cleave a dark elf general clean in two... and scream while it did.”</li>
+                <li>“I once carried a satchel for Princess Darcianne. Sealed in royal wax. Inside was a severed finger... still wearing a minister’s ring.”</li>
+                <li>“Baider wasn’t just a smith. During the Hollow Tree War, he ran dark errands for the Crown. The kind no one puts in songs.”</li>
+                <li>“You hear scratching under the floorboards after midnight? That ain’t rats. It’s the roots. They remember.”</li>
+                <li>“Liora comes here when she thinks no one’s watching. Orders wine. Talks to no one. Last time, she left a silver leaf behind — like the druids used to give before an execution.”</li>
+                <li>“Jorsh drank here the night he vanished. He paid in coins older than the kingdom. They hissed when I touched ’em.”</li>
+                <li>“There’s a ledger I keep. Has the names of every ranger, noble, and traitor who’s passed through here. Burn it, and you burn half the truth of Belladonna.”</li>
+                <li>“You want to know why I stayed here instead of dying with the old squad? Because someone has to remember. And someone has to warn you before it all starts again.”</li>
+            </ul>
+        </section>
+    </article>
+
+
+
+</body>
+</html>

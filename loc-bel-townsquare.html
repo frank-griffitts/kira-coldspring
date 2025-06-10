@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/map-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+            <a href="about.html" class="nav-button">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1000;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <article class="location-entry">
+
+        <h1>Belladonna Town Square & Residential District</h1>
+        <p>
+            <strong>Kingdom:</strong> Yew<br>
+            <strong>Township:</strong> Belladonna<br>
+            <strong>Notable Residents:</strong> Kira Coldspring (Ranger), Mira Vensh (Apothecary), various townsfolk and travelers
+        </p>
+
+        <section>
+            <h2>(a) Exterior Description: Town Square</h2>
+            <p>The heart of Belladonna is a lively stone-paved square surrounded by three-story buildings, whose architecture blends elven curve and human function. Flower boxes overflow from upper windows, and colorful laundry strings between balconies like festival banners. A central fountain carved from pale marble depicts the mythical Hart of Yew, a sacred stag said to guard lost travelers.</p>
+            <p>Around the square are cobbled alleys leading to various guildhouses, shops, and homes. By morning, it bustles with market stalls; by night, it glows with lanterns strung across iron hooks and enchanted lights swaying on gusts of magic.</p>
+            <p>Two notable buildings face each other across the square:</p>
+            <ul>
+                <li>Mira’s Apothecary</li>
+                <li>Rangers’ Dormitories</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>(b) Interior Descriptions</h2>
+
+            <h3>1. Mira’s Apothecary (“Herbs & Whispers”)</h3>
+            <p><strong>Exterior:</strong> A narrow storefront with a hanging sign of a mortar and pestle surrounded by twining ivy. The inside smells of lavender, myrrh, and something faintly bitter.</p>
+            <ul>
+                <li><strong>Front Room:</strong> Shelves packed with dried herbs, potion vials, bundled roots, glowing spores, and small charms. A glass case displays special potions (labeled but locked).</li>
+                <li><strong>Counter Area:</strong> Scales, ledgers, and an enchanted talking raven named Grackle who gossips freely unless told to hush.</li>
+                <li><strong>Back Room:</strong> Workbench with alchemical tools, drying racks, and two sleeping cots — one for Mira and one for her cat, Vixie (who may or may not be a disguised familiar).</li>
+                <li><strong>Basement:</strong> Accessible via ladder — stores older tomes and failed experiments. There’s a hidden niche behind a stone shelf (see section f).</li>
+            </ul>
+
+            <h3>2. Rangers’ Dormitories</h3>
+            <p><strong>Exterior:</strong> This three-story wooden and stone building has a green-tile roof and ivy creeping up its north side. It houses traveling rangers, scouts, and local wilderness guides.</p>
+            <ul>
+                <li><strong>First Floor:</strong> Common area with a fireplace, notice board, and modest mess hall. Trophy antlers and carved wooden map fragments hang on the walls.</li>
+                <li><strong>Second Floor:</strong> Shared quarters. Bunks with footlockers. Kira’s is near the window — spare, orderly, and littered with bowstring scraps, trail maps, and pressed wildflowers. A cracked mirror is hung with a raven feather (a charm she took from her first hunt).</li>
+                <li><strong>Third Floor:</strong> Ranger Captain’s quarters and a locked supply armory (DC 16 lock).</li>
+                <li><strong>Roof Access:</strong> From a concealed hatch; perfect for stargazing or secret meetings.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>(c) NPC Stat Blocks</h2>
+
+            <h3>Mira Vensh, Elven Apothecary (CR 1)</h3>
+            <pre>
+Medium humanoid (elf), neutral good
+AC: 12 | HP: 27 | Speed: 30 ft.
+STR 8 | DEX 12 | CON 10 | INT 16 | WIS 14 | CHA 11
+Skills: Medicine +6, Arcana +5, Nature +5, Insight +4
+Tools: Alchemist’s supplies +6
+Languages: Common, Elvish, Sylvan
+    </pre>
+            <ul>
+                <li><strong>Potion Mastery:</strong> Can identify potions instantly and mix a basic healing potion (2d4+2) in 10 minutes with ingredients.</li>
+                <li><strong>Soothing Aura (1/day):</strong> Emits a calming field; all allies in 20 ft. radius gain advantage on fear saves for 1 minute.</li>
+                <li><strong>Quick Remedy (Bonus Action):</strong> Tosses a salve or powder to neutralize poison or reduce infection (once per short rest).</li>
+            </ul>
+
+            <h4>Grackle (Enchanted Raven Familiar)</h4>
+            <pre>
+AC: 13 | HP: 5
+Abilities: Mimics voices, gossips, but obeys Mira
+Special: Can cast <em>Message</em> once per day
+    </pre>
+        </section>
+
+        <section>
+            <h2>(d) Mira’s Backstory</h2>
+            <p>Once a court alchemist in Yew’s capital, Mira was disillusioned after the Minister of Trade began hoarding rare alchemical reagents. She left quietly and took up residence in Belladonna under the guise of a humble apothecary. Despite her gentle manner, Mira has secrets: she still tracks the Minister’s smuggling routes and maintains coded correspondence with someone in the royal court.</p>
+            <p>She took a liking to Kira Coldspring early on — sensing both the girl’s talent and her emotional walls. Mira sees Kira not as a student, but a possible protector for a growing threat from the darker parts of Yew’s politics.</p>
+        </section>
+
+        <section>
+            <h2>(e) Side Quest: “The Scent of Silence”</h2>
+            <p><strong>Quest Giver:</strong> Mira Vensh</p>
+            <p><strong>Hook:</strong> Mira’s supplier from the woods has gone missing. A delivery of silent petals — flowers that grow only where the veil between worlds thins — was due last tenday and never arrived. Strange dreams now plague anyone who sleeps near the square fountain.</p>
+            <p><strong>Objective:</strong></p>
+            <ul>
+                <li>Track the flower supplier into the eastern woods</li>
+                <li>Uncover a planar rift partially opened by a corrupted druid</li>
+                <li>Choose whether to seal the rift, harvest from it, or report to Belladonna’s magistrate</li>
+            </ul>
+            <p><strong>Reward:</strong></p>
+            <ul>
+                <li>A Potion of Dreamless Sleep (immunity to charm and sleep for 24 hrs)</li>
+                <li>A one-time Veilwalker’s Token — allows casting <em>Misty Step</em> or <em>Detect Thoughts</em> once</li>
+                <li>If Kira completes the quest, Mira hints at knowing something about Jorsh and Varis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>(f) Hidden Chamber / Puzzle</h2>
+            <p><strong>Location:</strong> Basement of Mira’s Apothecary</p>
+            <p><strong>Hidden Niche Puzzle:</strong></p>
+            <p>Behind a moveable herb rack is a small alcove with three colored vials on pedestals: green, silver, and red. Pouring them in the wrong order causes the niche to spray stinging spores (1d6 poison).</p>
+            <p>
+                <strong>The correct order:</strong> Silver → Red → Green<br>
+                (This matches the order of the blooming of silent petals as noted in Mira’s journal.)
+            </p>
+            <p><strong>Contents of the Hidden Niche:</strong></p>
+            <ul>
+                <li>Planar Lens Crystal (shows invisible creatures and doorways when held up to light, 3 charges)</li>
+                <li>Note from an unknown agent: “If Varis moves the trade east, warn the girl. The key lies in Hemlock.”</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>(g) Monsters: Optional Encounter in the Square (Night Event)</h2>
+            <p>If the veil-thin area near the fountain is left unchecked, planar spirits may slip through at night:</p>
+
+            <h3>Flicker Wraiths (2–4)</h3>
+            <pre>
+Tiny incorporeal undead, neutral evil
+AC: 15 | HP: 18
+    </pre>
+            <ul>
+                <li><strong>Incorporeal Movement</strong></li>
+                <li><strong>Dream Drain:</strong> On hit, target must make a DC 13 WIS save or suffer disadvantage on Wisdom checks until long rest</li>
+                <li><strong>Flicker Shift:</strong> Teleports 15 ft. as bonus action; leaves behind a ghostly afterimage</li>
+            </ul>
+        </section>
+
+    </article>
+
+
+</body>
+</html>

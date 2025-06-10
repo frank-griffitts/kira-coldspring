@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/map-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+            <a href="about.html" class="nav-button">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1000;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <article class="location-entry location-town-well">
+        <header class="location-header">
+            <h2>The Town Well & Underground Cistern Caverns</h2>
+            <p>
+                <strong>Kingdom:</strong> Yew<br>
+                <strong>Township:</strong> Belladonna<br>
+                <strong>Current Overseer:</strong> None officially — secretly monitored by Magistrate Dellmar
+            </p>
+        </header>
+
+        <section class="location-section">
+            <h3>a. Exterior Description: The Town Well</h3>
+            <p>
+                Nestled at the edge of Belladonna’s central square, the town well is a round stone structure with a crumbling lip and rusted pulley crank.
+                Weeds grow between the stones, and a faded wooden sign reads “Drink not past the frost moon.” Locals avoid it, claiming the water “tastes wrong” and sometimes “talks back.”
+            </p>
+            <p>
+                The wooden bucket is missing, the rope snapped. A faint, cold wind sometimes rises from the shaft, even on windless days. Crows perch on the rim and watch silently.
+                Beneath the well, the shaft descends nearly 60 feet into darkness, where crumbling stone opens into the ancient cistern tunnels below.
+            </p>
+        </section>
+
+        <section class="location-section">
+            <h3>b. Interior Description: The Cistern Caverns</h3>
+
+            <h4>1. Shaft Descent</h4>
+            <p>
+                The descent begins with carved stone but quickly gives way to rough masonry. Around 30 feet down, the walls begin to sweat with moisture, and glowing green moss appears.
+                At 55 feet, the shaft widens into a circular chamber — a crumbled access hub with three tunnels branching off.
+            </p>
+
+            <h4>2. Forgotten Aqueduct</h4>
+            <p>
+                This passage leads to a flooded aqueduct, thigh-deep in brackish water. Cracked statues of elven origin line the wall — their faces worn smooth.
+                Faint chanting sometimes echoes from nowhere.
+            </p>
+            <p><strong>Trap:</strong> Pressure plate releases a burst of necrotic gas (DC 14 CON save or take 3d6 necrotic).</p>
+            <p><strong>Contents:</strong> Old water-purification sigils still glow faintly, causing minor illusions or hallucinations.</p>
+
+            <h4>3. Ancient Cistern Hall</h4>
+            <p>
+                A vast vaulted chamber once used for water storage, now drained and dry. The ceiling is covered in stalactites, several of which contain embedded bones.
+                A broken metal pipe leaks oily black fluid from the ceiling into a circular pool.
+            </p>
+            <p><strong>Central Feature:</strong> A massive stone wellhead surrounded by runes. It pulses with energy and connects to the lower catacombs.</p>
+            <p><strong>Enemies:</strong> One Whispering Sludge and two Mutated Rats (from consuming the black ichor).</p>
+
+            <h4>4. Sealed Door of the Elder Drain</h4>
+            <p>
+                A massive circular bronze door sealed with three arcane locks. Symbols include an eye, a key, and a spiral.
+            </p>
+            <p><strong>Opening Puzzle:</strong></p>
+            <ul>
+                <li><strong>Eye:</strong> Requires casting Detect Magic in the chamber</li>
+                <li><strong>Key:</strong> Hidden in the elven statue’s mouth in the aqueduct</li>
+                <li><strong>Spiral:</strong> A rotating floor tile puzzle must align spirals with flow markers (INT check DC 15)</li>
+            </ul>
+            <p>Beyond the door lies a vault filled with ancient relics and the deeper tunnels (future expansion).</p>
+        </section>
+
+        <section class="location-section">
+            <h3>c. Stat Blocks: Monsters</h3>
+
+            <h4>Whispering Sludge</h4>
+            <p><strong>Type:</strong> Corrupted Ooze | <strong>Size:</strong> Large | <strong>Alignment:</strong> Chaotic Evil</p>
+            <p><strong>AC:</strong> 13 | <strong>HP:</strong> 84 (8d10 + 40) | <strong>Speed:</strong> 20 ft., climb 10 ft.</p>
+            <p><strong>STR</strong> 18 | <strong>DEX</strong> 6 | <strong>CON</strong> 20 | <strong>INT</strong> 6 | <strong>WIS</strong> 12 | <strong>CHA</strong> 5</p>
+            <p>
+                <strong>Damage Resistances:</strong> Psychic, Necrotic<br>
+                <strong>Condition Immunities:</strong> Blinded, Charmed, Deafened, Frightened<br>
+                <strong>Senses:</strong> Blindsight 60 ft., Passive Perception 11<br>
+                <strong>Languages:</strong> Understands Deep Speech, whispers telepathically within 30 ft.
+            </p>
+            <p><strong>Abilities:</strong></p>
+            <ul>
+                <li><em>Maddening Whisper (Recharge 5–6):</em> DC 15 WIS save or 4d8 psychic damage + disadvantage on next save.</li>
+                <li><em>Split:</em> Splits into two smaller oozes when taking slashing damage (each with half HP).</li>
+                <li><em>Pseudopod Strike:</em> +6 to hit, 2d10 bludgeoning + 1d8 necrotic.</li>
+            </ul>
+
+            <h4>Mutated Rats (2)</h4>
+            <p><strong>Type:</strong> Corrupted Small Beast | <strong>Alignment:</strong> Unaligned</p>
+            <p><strong>AC:</strong> 13 | <strong>HP:</strong> 22 each | <strong>Speed:</strong> 30 ft., climb 20 ft.</p>
+            <p><strong>STR</strong> 8 | <strong>DEX</strong> 15 | <strong>CON</strong> 14 | <strong>INT</strong> 2 | <strong>WIS</strong> 10 | <strong>CHA</strong> 3</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li><em>Pack Tactics:</em> Advantage on attack rolls if an ally is within 5 ft.</li>
+                <li><em>Ichor Bite:</em> 1d6 piercing, DC 12 CON save or 1d6 poison and poisoned for 1 hour.</li>
+            </ul>
+        </section>
+
+        <section class="location-section">
+            <h3>d. Backstory: The Well’s Origins</h3>
+            <p>
+                The town well predates Belladonna’s founding and is actually the surface vent of an ancient waterworks system built by the elven settlers of Yew long before human expansion.
+                The cistern chambers were designed not only to store water but also to guard something older — a vault sealed by the elven sages to contain “whispers from below.”
+            </p>
+            <p>
+                Over centuries, knowledge of the underground structure faded. During a failed excavation a decade ago, Magistrate Corvin Dellmar uncovered a relic — the Eye of the Unspeaking Court —
+                which cursed the water supply and birthed the Whispering Sludge. He abandoned the site but left it under discreet observation.
+            </p>
+        </section>
+
+        <section class="location-section">
+            <h3>e. Side Quest: “The Thirst Below”</h3>
+            <p><strong>Quest Giver:</strong> Local barkeep or elderly herbalist</p>
+            <p><strong>Hook:</strong> Townsfolk report bitter water and disturbing dreams. Someone fell into the well and never returned.</p>
+            <p><strong>Objectives:</strong></p>
+            <ul>
+                <li>Investigate the well and discover the underground structure</li>
+                <li>Defeat the Whispering Sludge</li>
+                <li>(Optional) Solve the Sealed Door puzzle</li>
+                <li>(Optional) Destroy the cursed Eye, or return it to Dellmar</li>
+            </ul>
+            <p><strong>Reward:</strong></p>
+            <ul>
+                <li>300 gp total from grateful townsfolk</li>
+                <li>Potion of Mind Clarity (advantage vs. psychic damage and illusions for 1 hour)</li>
+                <li><em>Bonus:</em> Elven spirits may appear in dreams if the Eye is destroyed, granting a once-only divination vision</li>
+            </ul>
+        </section>
+
+        <section class="location-section">
+            <h3>f. Hidden Chamber & Treasure: Vault of the Elder Drain</h3>
+            <p><strong>Contents:</strong></p>
+            <ul>
+                <li><strong>Relic:</strong> Tear of the Moonroot Tree (wondrous item, rare) — cast Greater Restoration 1/day, protects against corruption</li>
+                <li><strong>Ancient Scrolls:</strong> Describe the Echoing Realm and early elven prophecies</li>
+                <li><strong>Secret Passage:</strong> Leads deeper into a cavern system (connects to future dungeons)</li>
+            </ul>
+        </section>
+    </article>
+
+
+</body>
+</html>

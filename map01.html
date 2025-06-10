@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/map-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
+            <a href="about.html" class="nav-button">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <main class="map-container">
+
+        <div class="parchment-background">
+
+            <div class="spacer"></div>
+
+            <div>
+                <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+                     style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1000;
+                        opacity: 0.9;
+                        pointer-events: none;">
+            </div>
+
+            <div>
+                <img src="Illustrations/BelladonnaTownship.png" alt="Title" class="responsive-banner">
+            </div>
+
+            <div class="map-marker"
+                 data-title="North"
+                 style="left: 10%; top: 15%; background-image: url('Illustrations/compassRose.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-square"
+                 data-title="Belladonna Town Square"
+                 style="left: 50%; top: 50%; background-image: url('Illustrations/loc-bel-townsquare.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-blacksmith"
+                 data-title="Belladonna Blacksmith"
+                 style="left: 60%; top: 40%; background-image: url('Illustrations/loc-bel-blacksmith.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="10 minutes by foot..."
+                 style="width: 100px; height: 100px; left: 55%; top: 45%; background-image: url('Illustrations/angle-right.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-well"
+                 data-title="Whispering Well"
+                 style="left: 40%; top: 60%; background-image: url('Illustrations/loc-bel-whisperingwell.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="1 minute by foot..."
+                 style="width: 100px; height: 100px;left: 45%; top: 58%; background-image: url('Illustrations/angle-right.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="hemlock-pass"
+                 data-title="Hemlock Pass"
+                 style="left: 50%; top: 30%; background-image: url('Illustrations/loc-bel-roadToHemlock.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="12 hours by foot..."
+                 style="width: 100px; height: 100px;left: 54%; top:40%; background-image: url('Illustrations/line-vert.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-tavern"
+                 data-title="Wyrmblood Flask"
+                 style="left: 60%; top: 60%; background-image: url('Illustrations/loc-bel-tavern.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="2 minutes by foot..."
+                 style="width: 80px; height: 80px;left: 57%; top:57%; background-image: url('Illustrations/angle-left.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-apothacary"
+                 data-title="Apothacary"
+                 style="left: 40%; top: 40%; background-image: url('Illustrations/loc-bel-dorms.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="3 minutes by foot..."
+                 style="width: 100px; height: 100px;left: 43%; top:43%; background-image: url('Illustrations/angle-left.png');">
+            </div>
+
+            <div class="map-marker"
+                 data-id="belladonna-magistrate"
+                 data-title="Magistrate"
+                 style="left: 30%; top: 50%; background-image: url('Illustrations/loc-bel-magistrate.png');">
+            </div>
+
+            <div class="map-path"
+                 data-title="10 minutes by foot..."
+                 style="width: 120px; height: 100px;left: 40%; top:55%; background-image: url('Illustrations/line-horiz.png');">
+            </div>
+
+        </div>
+    </main>
+    <!-- Add more markers as needed, just change data-id and style -->
+    </div>
+
+    <!-- Modal -->
+    <div id="locationModal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-description"></div>
+            <a id="modal-link" class="button" href="#" style="display: none;">Explore Dungeon Master Notes</a>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
