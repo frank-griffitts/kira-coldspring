@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPG Map</title>
-    <script src="js/map.js"></script>
+    <script src="java-template.js"></script>
     <link rel="stylesheet" href="css/map-styles.css" />
 
 </head>
@@ -14,7 +14,7 @@
         <button class="hamburger" onclick="toggleMenu()">☰</button>
         <div class="nav-links" id="navLinks">
             <a href="index.html" class="nav-button">Home</a>
-            <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">Map</a>
             <a href="map-template.html" class="nav-button">History & NPCs</a>
             <a href="store.html" class="nav-button">Store</a>
             <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
@@ -26,7 +26,7 @@
     <div>
         <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo" class="logo" />
     </div>
-
+    
     <div class="map-scroll-wrapper">
 
         <div class="map-container">
@@ -35,32 +35,18 @@
                 <img src="Illustrations/BelladonnaTownship.png" class="title">
             </div>
 
-            <!-- LOCATIONS -->
-
-            <div class="location" style="top: 6%; left: 20%;">
-                <!-- compass -->
-                <img src="Illustrations/compass.png" alt="Compass" />
-                <div class="tooltip">North</div>
-            </div>
-
+            <!-- LOCATIONS (C to each outer node) -->
             <!-- Center node (C) -->
-
-            <div class="location" style="top: 30%; left: 50%;" onclick="openModal('town-square')">
+            <div class="location" style="top: 30%; left: 50%;">
                 <img src="Illustrations/loc-bel-townsquare.png" alt="Town Square" />
                 <div class="tooltip">Town Square</div>
             </div>
 
             <!-- Outer nodes with corrected geometry -->
-            <div class="location" style="top: 5%; left: 70%;">
-                <!-- Node 10 -->
-                <img src="Illustrations/loc-bel-roadToHemlock.png" alt="North Road to Hemlock" />
-                <div class="tooltip">North Road to Hemlock</div>
-            </div>
-
             <div class="location" style="top: 15%; left: 50%;">
                 <!-- Node 1 -->
-                <img src="Illustrations/loc-bel-onyx.png" alt="Onyx's Cottage" />
-                <div class="tooltip">Onyx's Cottage</div>
+                <img src="Illustrations/loc-bel-roadToHemlock.png" alt="North Road to Hemlock" />
+                <div class="tooltip">North Road to Hemlock</div>
             </div>
 
             <div class="location" style="top: 22%; left: 25%;">
@@ -78,7 +64,7 @@
             <div class="location" style="top: 45%; left: 50%;">
                 <!-- Node 4 -->
                 <img src="Illustrations/loc-bel-rangerGuild.png" alt="Ranger's Guild'" />
-                <div class="tooltip">Rangers' Guild</div>
+                <div class="tooltip">Ranger's Guild</div>
             </div>
 
             <div class="location" style="top: 38%; left: 75%;">
@@ -103,17 +89,12 @@
                 <div class="tooltip">East Road to Moonspire</div>
             </div>
 
-            <div class="location" style="top: 55%; left: 33%;">
-                <img src="Illustrations/loc-bel-blackpines.png" alt="Blackpines Ruins" />
-                <div class="tooltip">Blackpines Ruins</div>
-            </div>
-
             <!-- ROUTES (C to each outer node) -->
 
             <div class="route" style="top: 18%; left: 37%;">
                 <!-- node 1 to node 2-->
                 <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">Apothecary to Onyx...15 Minutes by Foot</div>
+                <div class="tooltip">Apothecary to Hemlock...12 Hours by Foot</div>
             </div>
 
             <div class="route" style="top: 18%; left: 63%;">
@@ -125,13 +106,7 @@
             <div class="route" style="top: 22%; left: 50%;">
                 <!-- center to node 1 -->
                 <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">Town Square to Onyx's Cottage... 10 minutes by Foot</div>
-            </div>
-
-            <div class="route" style="top: 9%; left: 60%;">
-                <!-- center to node 10 -->
-                <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">Belladonna to Hemlock...12 Hours by Foot</div>
+                <div class="tooltip">Town Square to Hemlock...12 Hours by Foot</div>
             </div>
 
             <div class="route" style="top: 26%; left: 37%;">
@@ -188,36 +163,23 @@
                 <div class="tooltip">Blacksmith to Wyrmblood Flask...15 Minutes by Foot</div>
             </div>
 
-            <div class="route" style="top: 30%; left: 18%;">
-                <!-- node c to node 7 -->
-                <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">West Road to Hawthorn...10 Hours by Foot</div>
-            </div>
 
-            <div class="route" style="top: 30%; left: 82%;">
-                <!-- node 6 to node 5 -->
-                <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">East Road to Moonspire Ruins... 8 hours by Foot</div>
-            </div>
 
-            <div class="route" style="top: 50%; left: 42%;">
-                <!-- node 4 to node 11 -->
-                <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">South Road to Blackpines... 6 hours by Foot</div>
-            </div>
 
         </div>
     </div>
+
 
 
     <!-- MODAL -->
-    <div id="modal" class="modal">
+    <div id="locationModal" class="modal">
         <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <div id="modal-text"></div>
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Location Title</h2>
+            <p id="modal-description">Brief description for players...</p>
+            <button id="gm-link" class="button">GM Info</button>
         </div>
     </div>
-
 
 
 
