@@ -1,38 +1,38 @@
 const locationData = {
-  "belladonna-square": {
-    title: "Belladonna Town Square",
-    description: `
+    "belladonna-square": {
+        title: "Belladonna Town Square",
+        description: `
       <strong>Exterior Description:</strong><br>
       The heart of Belladonna is a lively stone-paved square surrounded by three-story buildings, whose architecture blends elven curve and human function. 
       Flower boxes overflow from upper windows, and colorful laundry strings between balconies like festival banners. 
       A central fountain carved from pale marble depicts the mythical Hart of Yew, a sacred stag said to guard lost travelers.<br><br>
       Around the square are cobbled alleys leading to various guildhouses, shops, and homes. 
       By morning, it bustles with market stalls; by night, it glows with lanterns strung across iron hooks and enchanted lights swaying on gusts of magic.<br><br>
-      <em>Notable Buildings:</em> Mira’s Apothecary and Rangers’ Dormitories.
+      <em>Notable Buildings:</em> Mira’s Apothecary and The Whispering Well.
     `,
-    interiors: [
-      {
-        name: "Mira’s Apothecary (Herbs & Whispers)",
-        description: `
+        interiors: [
+            {
+                name: "Mira’s Apothecary (Herbs & Whispers)",
+                description: `
           <strong>Exterior:</strong> Narrow storefront with a hanging sign of a mortar and pestle surrounded by twining ivy. Smells of lavender, myrrh, and something faintly bitter.<br><br>
           <strong>Front Room:</strong> Shelves packed with dried herbs, potion vials, bundled roots, glowing spores, and small charms. A glass case displays special potions (labeled but locked).<br><br>
           <strong>Counter Area:</strong> Scales, ledgers, and an enchanted talking raven named Grackle who gossips freely unless told to hush.<br><br>
           <strong>Back Room:</strong> Workbench with alchemical tools, drying racks, and two sleeping cots — one for Mira and one for her cat, Vixie (who may or may not be a disguised familiar).<br><br>
           <strong>Basement:</strong> Accessible via ladder — stores older tomes and failed experiments. There’s a hidden niche behind a stone shelf.
         `
-      },
-      {
-        name: "Rangers’ Dormitories",
-        description: `
+            },
+            {
+                name: "Rangers’ Dormitories",
+                description: `
           <strong>Exterior:</strong> A three-story wooden and stone building with a green-tile roof and ivy creeping up its north side. Houses traveling rangers, scouts, and local wilderness guides.<br><br>
           <strong>First Floor:</strong> Common area with a fireplace, notice board, and modest mess hall. Trophy antlers and carved wooden map fragments hang on the walls.<br><br>
           <strong>Second Floor:</strong> Shared quarters. Bunks with footlockers. Kira’s is near the window — spare, orderly, and littered with bowstring scraps, trail maps, and pressed wildflowers. A cracked mirror is hung with a raven feather (a charm she took from her first hunt).<br><br>
           <strong>Third Floor:</strong> Ranger Captain’s quarters and a locked supply armory (DC 16 lock).<br><br>
           <strong>Roof Access:</strong> From a concealed hatch; perfect for stargazing or secret meetings.
         `
-      }
-    ],
-    link: "loc-bel-townsquare.html"
+            }
+        ],
+        link: "loc-bel-townsquare.html"
     },
 
     "belladonna-blacksmith": {
@@ -115,13 +115,12 @@ const locationData = {
         A broken pipe drips oily black ichor into a stagnant central pool.<br><br>
         <strong>Central Feature:</strong> A rune-ringed stone wellhead pulses with arcane energy, connecting to lower catacombs.<br><br>
       `
-            },
-
+            }
         ],
         link: "loc-bel-whisperingWell.html"
     },
 
-    "belladonna-tavern": {
+    "wyrmblood-flask": {
         title: "The Wyrmblood Flask",
         description: `
     <strong>Exterior Description:</strong><br>
@@ -177,9 +176,4 @@ const locationData = {
         ],
         link: "loc-bel-tavern.html"
     }
-
-
-
 };
-
-

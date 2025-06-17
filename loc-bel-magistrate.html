@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/location-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">History & NPCs</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1500;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <div class="spacer"></div>
+
+    <header>
+        <h1>DUNGEON MASTERS ONLY</h1>
+        <h1>Location: Belladonna - Hall of the Magistrate</h1>
+    </header>
+
+
+    <div class="section exterior">
+        <img src="Illustrations/loc-bel-magistrate.png" alt="Magistrate's Hall" class="image-wrap" />
+        <h2>Exterior Description</h2>
+        <p>The Magistrate Hall looms in the heart of Belladonna’s central square — a somber, ivy-choked stone building with arched gothic windows, an iron clock tower, and a pair of tarnished bronze gryphon statues guarding its stairs. A pair of banners hang from the second-floor balcony: the green-and-gold sigil of Belladonna and the darker royal sigil of the Hawthorn family.</p>
+        <p>Vines creep up the north side, as if trying to reclaim the structure. The stones are chipped, stained from weather and time. Black wrought-iron lanterns glow with soft witchlight in the evenings. Crows frequently roost on the clock tower, adding to its eerie reputation.</p>
+    </div>
+
+    <div class="section interior">
+        <h2>Interior Description</h2>
+        <ul>
+            <li><strong>Entrance Lobby:</strong> High vaulted ceilings, a cold stone floor, and a worn red carpet. Citizens line up before a counter where a sleepy clerk files complaints and petitions. Iron chandeliers burn whale-oil lanterns. A statue of the first Magistrate (head missing) stands awkwardly in one corner.</li>
+            <li><strong>Council Chamber:</strong> A round room with tiered seats for council members. The Magistrate’s seat is elevated at the far end, beneath a stained glass window of Lady Belladonna, founder of the township. Hidden runes in the glass flicker under moonlight.</li>
+            <li><strong>Magistrate’s Office:</strong> Dark mahogany furnishings. Two massive bookshelves cover walls filled with tax records, court scrolls, and blackmail dossiers. A globe with secret compartments. A hidden drawer in the desk holds royal correspondence and illegal alchemy contracts.</li>
+            <li><strong>Archive Vault:</strong> Locked behind a steel-reinforced door with a glyph of warding. Scrolls, prisoner logs, deeds, bounty contracts. One shelf is disguised — leading to the secret chamber (see section f).</li>
+            <li><strong>Holding Cells:</strong> Four cramped cells guarded by two sleepy watchmen. Prisoners range from petty thieves to political prisoners “awaiting quiet relocation.”</li>
+            <li><strong>Detention Officer Quarters:</strong> Two level one fighters are usually here around the clock doing shift work to watch the prisoners and perform intake duties.</li>
+            <li><strong>Bailiffs’ Quarters:</strong> One level one fighter is usually here during daytime hours when court is in session.</li>
+            <li><strong>Pre-Trial War Room:</strong> This is a conference room that usually sits empty with a large oak table and a dozen chairs for people of importance to strategize around critical incidents and proceedings.</li>
+            <li><strong>Rooftop Observatory:</strong> Magistrate Dellmar’s private retreat. An enchanted spyglass allows him to observe the town and incoming roadways. Used for both stargazing and surveillance.</li>
+        </ul>
+    </div>
+
+    <div class="section stat-blocks">
+        <h2>Stat Blocks: NPCs</h2>
+        <h3>Magistrate Corvin Dellmar Pinkerton</h3>
+        <p><strong>Medium humanoid (human), neutral evil, Level 7 Warlock (Great Old One)</strong></p>
+        <ul>
+            <li><strong>AC:</strong> 14 (robes + Mage Armor)</li>
+            <li><strong>HP:</strong> 56 (7d8 + 21)</li>
+            <li><strong>Speed:</strong> 30 ft.</li>
+            <li><strong>STR</strong> 10 | <strong>DEX</strong> 12 | <strong>CON</strong> 16 | <strong>INT</strong> 14 | <strong>WIS</strong> 11 | <strong>CHA</strong> 18</li>
+            <li><strong>Saving Throws:</strong> CHA +7, CON +6</li>
+            <li><strong>Skills:</strong> Deception +8, Insight +4, History +5, Arcana +6</li>
+            <li><strong>Languages:</strong> Common, Infernal, Deep Speech</li>
+            <li>
+                <strong>Spells (DC 15, +7 to hit):</strong>
+                <ul>
+                    <li><em>Cantrips:</em> Eldritch Blast, Minor Illusion, Mage Hand</li>
+                    <li><em>1st–4th Level (2 slots each):</em> Charm Person, Hex, Suggestion, Misty Step, Greater Invisibility, Hunger of Hadar</li>
+                </ul>
+            </li>
+            <li><strong>Other Features:</strong> Awakened Mind (telepathy), Pact of the Tome (ritual casting: Detect Magic, Comprehend Languages)</li>
+            <li><strong>Special Equipment:</strong> Amulet of the Unspeaking Court (prevents scrying and mind-reading)</li>
+        </ul>
+    </div>
+
+    <div class="section backstory">
+        <h2>Backstory: Magistrate Corvin Dellmar Pinkerton</h2>
+        <p>Corvin rose quickly from a minor noble family due to his cleverness and subtle ruthlessness. He is charming and calculating, known for his “open ear” policy — listening to citizen woes while slowly ensnaring them in deals they can’t escape. Unknown to most, he is in secret communication with Varis, the Dark Elf Minister of Trade, and has sold access to Belladonna’s underground passages in exchange for power and forbidden knowledge.</p>
+        <p>Corvin’s pact is with the Unspeaking Court, eldritch entities from the Shadow Realm. His dreams are plagued by whispers, and he believes he’s destined to be the true ruler of Belladonna when the Hawthorns fall.</p>
+    </div>
+
+    <div class="section side-quest">
+        <h2>Side Quest: “The Whisper in the Well”</h2>
+        <p><strong>Quest Giver:</strong> Magistrate Dellmar</p>
+        <p><strong>Hook:</strong> Strange murmurs echo from the disused town well. Dellmar commissions the adventurers to investigate — though his real goal is to recover a relic he dropped into the depths: a bound eye of a forgotten god.</p>
+        <p><strong>Objective:</strong></p>
+        <ul>
+            <li>Descend into the dry, crumbling well</li>
+            <li>Traverse an underground crypt crawling with mutated vermin</li>
+            <li>Defeat the Whispering Sludge (ooze entity corrupted by the relic)</li>
+            <li>Choose whether to return the relic to Dellmar or destroy it</li>
+        </ul>
+        <p><strong>Reward:</strong> 250 gp per party member</p>
+        <ul>
+            <li><em>If returned:</em> Ring of Mind Shielding</li>
+            <li><em>If destroyed:</em> Gain Dellmar’s silent enmity</li>
+        </ul>
+    </div>
+
+    <div class="section hidden">
+        <h2>Hidden Room / Puzzle / Treasure</h2>
+        <p><strong>Location:</strong> Archive Vault, behind a movable shelf containing “Belladonna Tax Codes, Vol. VII”</p>
+        <p><strong>Puzzle:</strong> A mechanism with three rotating dials. Each dial contains a symbol: scales, a crow, and a flame.</p>
+        <p><strong>Hint:</strong> Found in the Council Chamber: “Justice flies on black wings in flame’s wake.”</p>
+        <p><strong>Correct sequence:</strong> Crow → Flame → Scales</p>
+        <p><strong>Secret Room Contents:</strong></p>
+        <ul>
+            <li>A hidden shrine to the Unspeaking Court, its walls etched with swirling alien script</li>
+            <li>Three Lamenting Eyes (floating beholderkin, see stat block below) guard a pedestal</li>
+            <li>
+                <strong>Treasure:</strong>
+                <ul>
+                    <li>Scroll of Dream Invasion (homebrew spell: invade and manipulate one creature’s dream)</li>
+                    <li>500 gp in ancient coins</li>
+                    <li>A contract marked with Varis’s wax sigil</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section monsters">
+        <h2>Monster: Lamenting Eye</h2>
+        <p><strong>(Custom Beholderkin)</strong></p>
+        <ul>
+            <li><strong>Small aberration, chaotic neutral</strong></li>
+            <li><strong>AC:</strong> 15</li>
+            <li><strong>HP:</strong> 38 (5d10 + 10)</li>
+            <li><strong>Speed:</strong> 0 ft., fly 30 ft. (hover)</li>
+            <li><strong>STR</strong> 4 | <strong>DEX</strong> 16 | <strong>CON</strong> 14 | <strong>INT</strong> 13 | <strong>WIS</strong> 12 | <strong>CHA</strong> 14</li>
+            <li><strong>Damage Resistances:</strong> psychic, force</li>
+            <li><strong>Condition Immunities:</strong> prone</li>
+            <li><strong>Senses:</strong> darkvision 120 ft., tremorsense 10 ft., passive Perception 15</li>
+            <li><strong>Languages:</strong> Deep Speech, telepathy 60 ft.</li>
+            <li>
+                <strong>Abilities:</strong>
+                <ul>
+                    <li>
+                        <strong>Eye Ray (1/day):</strong> One of the following, random (DC 13):
+                        <ul>
+                            <li><strong>Madness Beam:</strong> WIS save or suffer short-term madness for 1 minute</li>
+                            <li><strong>Blinding Gaze:</strong> CON save or blinded for 2 rounds</li>
+                            <li><strong>Memory Sear:</strong> INT save or lose a random prepared spell or skill for 1 hour</li>
+                            <li><strong>Horrible Whispers:</strong> Aura of 10 ft. causes disadvantage on saving throws vs fear</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="section hidden">
+        <h1>The Magistrate’s Hidden Dungeon</h1>
+        <img src="Illustrations/loc-bel-magistratesDungeon.png" alt="Secret Dungeon" class="image-wrap" />
+        <p><strong>Location:</strong> Beneath the Belladonna Magistrate Hall (see Location 2)</p>
+        <p><strong>Hidden Purpose:</strong> A covert prison and torture chamber used by the Magistrate for political enemies, secret debtors, and victims of blackmail.</p>
+    </div>
+
+    <div class="section exterior">
+        <h2>Exterior Description</h2>
+        <p>
+            There is no external entrance to this dungeon. Access is granted only via a hidden stone spiral stair beneath the Magistrate’s private wine cellar, revealed by twisting a bottle labeled <em>“Belladonna Reserve — 869 DR”</em>. The stone floor silently rotates, revealing black iron steps that descend into darkness.
+            The air grows cold almost instantly, and the sound of dripping water echoes below like whispers in a stone throat. The walls are damp, and faint blue glyphs pulse with anti-divination magic.
+        </p>
+    </div>
+
+    <div class="section interior">
+        <h2>Interior Chambers</h2>
+
+        <h3>1. Holding Corridor (The Maw)</h3>
+        <p>
+            A long hallway flanked by ten narrow iron-barred cells, each with stone floors and ceilings. Prisoners are kept in magically silenced isolation; any attempt to scream is muffled unless a Dispel Magic is cast.
+            The far wall bears the emblem of the Magistrate’s office, but warped into a weeping face. Hidden chains in the ceiling can be dropped via a switch in the observation room above.
+        </p>
+
+        <h3>2. The Interrogation Chamber (“The Root Cellar”)</h3>
+        <p>
+            A stone-walled circular chamber with a drainage grate in the center and chains hanging from all four walls. The floor is slightly bowl-shaped to collect blood. Shelves along the walls house elixirs, truth serums (some expired), and magical implements.
+            A red-glowing rune circle in the floor can force a creature to relive its worst memory (<em>DC 17 Wis save or be incapacitated by despair for 1 minute</em>).
+            A disguised viewing lens in the ceiling allows the Magistrate or his aides to observe from above.
+        </p>
+
+        <h3>3. The Archive of Names</h3>
+        <p>
+            A dusty side room filled with hundreds of scrolls, each bound in black ribbon and labeled with names and dates. Every scroll details the crimes—real or fabricated—of those held or killed in the dungeon.
+            Touching one scroll without permission triggers a glyph trap (<em>Hold Person, DC 15</em>).
+            One scroll bears <strong>Kira Coldspring’s</strong> name—falsely implicating her in a conspiracy with Jorsh the Betrayer.
+        </p>
+
+        <h3>4. The Forbidden Door (Sealed Cell #X)</h3>
+        <p>
+            An adamantine door sealed with a glyph of warding and three locking mechanisms (arcane, mundane, and blood-coded). Behind it is Prisoner X—a former royal steward who discovered the Magistrate’s alliance with Minister Varis and refused to stay quiet.
+            Prisoner X is alive but broken, barely sane, and guards a mind-fragment of a secret that could bring down both Varis and the Magistrate.
+        </p>
+    </div>
+
+    <div class="section stat-blocks">
+        <h2>NPC Stat Block: Magistrate Velloran Duskmere</h2>
+        <ul>
+            <li><strong>Medium humanoid (human)</strong>, Lawful Neutral (corrupt), CR 6</li>
+            <li><strong>AC:</strong> 17 (noble armor + Mage Armor)</li>
+            <li><strong>HP:</strong> 72 (9d8+27)</li>
+            <li><strong>Speed:</strong> 30 ft.</li>
+            <li><strong>STR</strong> 11 | <strong>DEX</strong> 14 | <strong>CON</strong> 16 | <strong>INT</strong> 17 | <strong>WIS</strong> 13 | <strong>CHA</strong> 18</li>
+            <li><strong>Saving Throws:</strong> INT +6, CHA +7</li>
+            <li><strong>Skills:</strong> Insight +5, Persuasion +9, Deception +8, History +6</li>
+            <li><strong>Languages:</strong> Common, Elvish, Draconic</li>
+            <li>
+                <strong>Abilities:</strong>
+                <ul>
+                    <li><strong>Court Immunity:</strong> Cannot be lawfully arrested without royal decree</li>
+                    <li><strong>Whispers of Power (1/day):</strong> Dominate Person on someone within the court system</li>
+                    <li><strong>Dark Leverage:</strong> Add double proficiency to all checks when blackmail can be leveraged</li>
+                    <li><strong>Magical Appraisal:</strong> Detect Magic at will, Dispel Magic 2/day</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Spells (Warlock 5 - Archfey Pact):</strong>
+                <ul>
+                    <li><strong>Cantrips:</strong> Prestidigitation, Eldritch Blast</li>
+                    <li><strong>1st (2):</strong> Charm Person, Armor of Agathys</li>
+                    <li><strong>2nd (2):</strong> Mirror Image, Hold Person</li>
+                    <li><strong>3rd (2):</strong> Counterspell, Hypnotic Pattern</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section backstory">
+        <h2>Backstory: Magistrate Velloran Duskmere</h2>
+        <p>
+            Duskmere came from humble beginnings but rose quickly through the judiciary by being ruthlessly efficient and always one step ahead of scandals. He was once a just man, but was ensnared by Minister Varis’s web of leverage and promises of power.
+            He now maintains this hidden dungeon as a tool to eliminate threats quietly, imprison political enemies, or manipulate nobles into “cooperation.”
+            Despite his outward calm and refined demeanor, Duskmere is deeply paranoid, keeping records on everyone—especially Kira Coldspring and Princess Hawthorn.
+        </p>
+        <p>
+            There is a <strong>1d4</strong> chance that Duskmere is in the dungeon or in the Magistrate's office, visiting Magistrate Pinkerton as an emissary from the Royal Palace.
+        </p>
+    </div>
+
+    <div class="section side-quest">
+        <h2>Side Quest: “Name on the Scroll”</h2>
+        <p><strong>Quest Giver:</strong> Moth, a former jailer-turned-informant found in Belladonna’s alleys.</p>
+        <p><strong>Objective:</strong></p>
+        <ul>
+            <li>Infiltrate the Magistrate’s Hall</li>
+            <li>Access the secret stair and descend into the hidden dungeon</li>
+            <li>Find and destroy Kira’s scroll before it is copied and sent</li>
+        </ul>
+        <p><strong>Complication:</strong> The party discovers Prisoner X, who offers a deal—set him free in exchange for the truth about Varis and the Magistrate’s pact.</p>
+        <p><strong>Rewards:</strong></p>
+        <ul>
+            <li>A royal pardon for Kira</li>
+            <li>A permanent contact in the royal resistance</li>
+            <li>A set of Truth-Sensing Rings (see below)</li>
+        </ul>
+    </div>
+
+    <div class="section hidden">
+        <h2>Hidden Puzzle Room: The Cell of the Ever-Watchful Eye</h2>
+        <p><strong>Accessed Through:</strong> Pulling a false torch in the Archive of Names</p>
+        <p>
+            A dark chamber with no visible door. In the center: a single unblinking stone eye on a pedestal.
+            <br><strong>Puzzle:</strong> The eye must be stared into while speaking a truth about the observer’s own past. Each PC who participates sees a vision of their worst lie or guilt.
+            If the party tells three genuine truths aloud, a hidden compartment opens.
+        </p>
+        <p><strong>Treasure:</strong></p>
+        <ul>
+            <li><strong>Truth-Sensing Rings (set of 3):</strong> While attuned, wearer knows if someone is lying within 30 ft. (no action needed)</li>
+            <li><strong>Vial of Perdition Ink:</strong> Can erase a name from any official magical document or cursed scroll</li>
+            <li><strong>Map to the Tunnel of the Ashen Root:</strong> Bypasses palace guards and leads directly to the Ministry of Trade</li>
+        </ul>
+    </div>
+
+    <div class="section monsters">
+        <h2>Monster Stat Block: False Sentinel (CR 4)</h2>
+        <ul>
+            <li><strong>Type:</strong> Construct guardian animated by guilt and secrets</li>
+            <li><strong>HP:</strong> 60</li>
+            <li><strong>AC:</strong> 18</li>
+            <li><strong>Speed:</strong> 20 ft.</li>
+            <li><strong>Immunities:</strong> psychic, poison, fear</li>
+            <li><strong>Special:</strong> <em>Guilt Gaze</em> – DC 15 Wisdom save or be stunned for 1 round while hallucinating a moral failure</li>
+            <li><strong>Attacks:</strong> Slam (2d10 + 4 bludgeoning); on critical, target gains a level of exhaustion</li>
+        </ul>
+    </div>
+
+    <div class="spacer"></div>
+
+
+    <div class="footer">
+        &copy; 2025 Kira Coldspring. All rights reserved.
+    </div>
+
+
+
+</body>
+</html>

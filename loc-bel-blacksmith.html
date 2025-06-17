@@ -22,7 +22,7 @@
     <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/map-styles.css">
+    <link rel="stylesheet" href="css/location-styles.css">
 
     <!-- Scripts -->
     <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
@@ -42,10 +42,9 @@
         <div class="nav-links" id="navLinks">
             <a href="index.html" class="nav-button">Home</a>
             <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">History & NPCs</a>
             <a href="store.html" class="nav-button">Store</a>
             <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
-            <button id="theme-toggle" class="nav-button">Dark/Light Mode</button>
-            <a href="about.html" class="nav-button">Privacy Policy</a>
         </div>
     </nav>
 
@@ -57,141 +56,110 @@
                         right: 20px;
                         width: 300px;
                         max-width: 30%;
-                        z-index: 1000;
+                        z-index: 1500;
                         opacity: 0.9;
                         pointer-events: none;">
     </div>
 
-    <article class="location-entry">
+    <div class="spacer"></div>
 
-        <h1>Baider’s Blacksmith Shop</h1>
-        <h3>Kingdom:</h3> Yew
-        <br><h3>Township:</h3> Belladonna
-        <br><h3>Proprietor:</h3> Baider, Half-Orc Weaponsmith and Kira Coldspring’s estranged adoptive father
+    <header>
+        <h1>DUNGEON MASTERS ONLY</h1>
+        <h1>Location: Belladonna - Baider’s Blacksmith Shop</h1>
+    </header>
 
-        <section>
-            <h2>Exterior Description</h2>
-            <p>
-                Baider’s forge is tucked near the southern edge of Belladonna, where the cobblestones give way to beaten dirt paths and the scent of soot clings to the wind. The building is squat, square, and utterly practical — stone walls with dark timber beams, a thick chimney that belches smoke by dawn, and a wrought-iron anvil sign creaking above the door.
-            </p>
-            <p>
-                A few rusted swords and horseshoes hang on pegs outside. A wooden training dummy — half-burnt and slashed to ribbons — leans against the side wall. Deep gouges scar the stone doorstep from years of hammering metal and slamming stubborn doors. Blackened scorch marks climb up the chimney’s flank like claw marks.
-            </p>
-        </section>
+    <div class="section exterior">
+        <img src="Illustrations/loc-bel-blacksmith.png" alt="Baider’s Blacksmith Shop" class="image-wrap" />
 
-        <section>
-            <h2>Interior Description</h2>
-            <h3>1. Main Forge Room</h3>
-            <p>
-                The heart of the shop — roaring forge, anvils, barrels of scrap, and racks of unfinished weapons. A dozen sets of tongs hang like fingers from a wall. The heat is intense. A small shrine to Moradin (the dwarven god of craft) sits behind a tool rack, half-forgotten.
-            </p>
-            <p>
-                A single window is permanently jammed shut, covered in soot.
-            </p>
-            <ul>
-                <li>An iron-banded chest contains special commissions (locked, DC 16 thieves’ tools).</li>
-                <li>Baider keeps a heavy two-handed hammer always within arm’s reach.</li>
-            </ul>
+        <h2>Exterior Description</h2>
+        <p>
+            Baider’s forge is tucked near the southern edge of Belladonna, where the cobblestones give way to beaten dirt paths and the scent of soot clings to the wind. The building is squat, square, and utterly practical — stone walls with dark timber beams, a thick chimney that belches smoke by dawn, and a wrought-iron anvil sign creaking above the door.
+            A few rusted swords and horseshoes hang on pegs outside. A wooden training dummy — half-burnt and slashed to ribbons — leans against the side wall. Deep gouges scar the stone doorstep from years of hammering metal and slamming stubborn doors. Blackened scorch marks climb up the chimney’s flank like claw marks.
+        </p>
+    </div>
 
-            <h3>2. Front Sales Area</h3>
-            <p>
-                Dusty shelves of tools, nails, horseshoes, and basic weapons. A low counter with a cracked ledger and a locked drawer containing coin pouches and receipts. Customer requests (most denied) are pinned to the wall.
-            </p>
-            <p>
-                A small sign reads: <em>“No sword will save a fool’s life twice.”</em>
-            </p>
-            <ul>
-                <li>A dented shield once belonging to a fallen ranger leans in a corner — Kira’s old training shield.</li>
-            </ul>
+    <div class="section interior">
+        <h2>Interior Description</h2>
+        <ul>
+            <li><strong>Main Forge Room:</strong> The heart of the shop — roaring forge, anvils, barrels of scrap, and racks of unfinished weapons. A dozen sets of tongs hang like fingers from a wall. The heat is intense. A small shrine to Moradin (the dwarven god of craft) sits behind a tool rack, half-forgotten. A single window is permanently jammed shut, covered in soot. An iron-banded chest contains special commissions (locked, DC 16 thieves’ tools). Baider keeps a heavy two-handed hammer always within arm’s reach.</li>
+            <li><strong>Front Sales Area:</strong> Dusty shelves of tools, nails, horseshoes, and basic weapons. A low counter with a cracked ledger and a locked drawer containing coin pouches and receipts. Customer requests (most denied) are pinned to the wall. A small sign reads: “No sword will save a fool’s life twice.” A dented shield once belonging to a fallen ranger — Kira’s old training shield — leans in a corner.</li>
+            <li><strong>Storage Room / Living Quarters:</strong> Simple cot, shelves of food, half-built gear, and several sealed crates marked with an old military insignia (Baider’s former mercenary unit). A few dusty sketches of Kira as a child (poorly drawn) are tucked into the edge of the mirror. The back wall has a locked trapdoor (see hidden room section). A note is pinned to the wall in Baider’s heavy hand: “She’s not coming back. Good.”</li>
+        </ul>
+    </div>
 
-            <h3>3. Storage Room / Living Quarters</h3>
-            <p>
-                Simple cot, shelves of food, half-built gear, and several sealed crates marked with an old military insignia (Baider’s former mercenary unit). A few dusty sketches of Kira as a child (poorly drawn) are tucked into the edge of the mirror.
-            </p>
-            <p>
-                The back wall has a locked trapdoor (see section Hidden Room).
-            </p>
-            <p>
-                A note is pinned to the wall in Baider’s heavy hand: <em>“She’s not coming back. Good.”</em>
-            </p>
-        </section>
+    <div class="section stat-blocks">
+        <h2>Stat Block</h2>
+        <p>
+            <strong>Baider, Half-Orc Blacksmith</strong> (Level 5 Fighter – Champion)<br />
+            Medium humanoid (half-orc), neutral<br />
+            AC: 16 (chain shirt + bracers) | HP: 68 (5d10+25) | Speed: 30 ft.<br />
+            STR 18 | DEX 12 | CON 18 | INT 10 | WIS 11 | CHA 8<br />
+            Saving Throws: STR +7, CON +7<br />
+            Skills: Athletics +7, Intimidation +4, Smith’s Tools +6<br />
+            Languages: Common, Orc<br />
+            <strong>Abilities:</strong><br />
+            - Second Wind (1/day)<br />
+            - Action Surge (1/day)<br />
+            - Improved Critical (crit on 19–20)<br />
+            - Reluctant Mentor: If forced into battle with Kira or her allies, he fights with disadvantage for one round before committing<br />
+            - Weapon of Choice: Baider’s Iron Maul (1d12+5 bludgeoning; crits leave enemies prone unless CON save DC 15)
+        </p>
+    </div>
 
-        <section>
-            <h2>Stat Block: Baider, Half-Orc Blacksmith</h2>
-            <pre>
-Medium humanoid (half-orc), neutral, Level 5 Fighter (Champion)
-AC: 16 (chain shirt + bracers)
-HP: 68 (5d10+25)
-Speed: 30 ft.
+    <div class="section backstory">
+        <h2>Backstory</h2>
+        <p>
+            Baider was once a mercenary in a bloody border war near the Blasted Hollow. He left the battlefield with a shattered knee and a haunted look. When he found Kira — a half-starved half-elf orphan hiding in a caravan wreckage — he didn’t speak for days, just fed her and handed her a whetstone.
+            He raised her as a blacksmith’s apprentice, but his ways were stern, even harsh. Baider believed tough love was the only love worth offering. Kira saw cruelty where Baider saw discipline. The two eventually clashed so bitterly she ran away — and he never looked for her.
+            Now, he works alone, speaking little, forging much, and watching every shadow for the past he fears will return.
+        </p>
+    </div>
 
-STR 18 | DEX 12 | CON 18 | INT 10 | WIS 11 | CHA 8
-Saving Throws: STR +7, CON +7
-Skills: Athletics +7, Intimidation +4, Smith’s Tools +6
-Languages: Common, Orc
-
-Abilities:
-- Second Wind (1/day)
-- Action Surge (1/day)
-- Improved Critical (crit on 19–20)
-- Reluctant Mentor: If forced into battle with Kira or her allies, he fights with disadvantage for one round before committing
-
-Weapon of Choice:
-Baider’s Iron Maul (1d12+5 bludgeoning, crits leave enemies prone unless CON save DC 15)
-    </pre>
-        </section>
-
-        <section>
-            <h2>Backstory: Baider</h2>
-            <p>
-                Baider was once a mercenary in a bloody border war near the Blasted Hollow. He left the battlefield with a shattered knee and a haunted look. When he found Kira — a half-starved half-elf orphan hiding in a caravan wreckage — he didn’t speak for days, just fed her and handed her a whetstone.
-            </p>
-            <p>
-                He raised her as a blacksmith’s apprentice, but his ways were stern, even harsh. Baider believed tough love was the only love worth offering. Kira saw cruelty where Baider saw discipline. The two eventually clashed so bitterly she ran away — and he never looked for her.
-            </p>
-            <p>
-                Now, he works alone, speaking little, forging much, and watching every shadow for the past he fears will return.
-            </p>
-        </section>
-
-        <section>
-            <h2>Side Quest: “Ashes and Steel”</h2>
-            <p><strong>Quest Giver:</strong> Baider (grudgingly, or via a found letter)</p>
-            <p><strong>Hook:</strong> One of Baider’s old mercenary crates was stolen, and he suspects a former comrade is planning something dangerous with it — the Ashsteel Formula, a volatile alloy used to make unstable enchanted weapons.</p>
-
-            <h4>Objective:</h4>
+    <div class="section side-quest">
+        <h2>Side Quest</h2>
+        <p>
+            <strong>“Ashes and Steel”</strong><br />
+            <strong>Quest Giver:</strong> Baider (grudgingly, or via a found letter)<br />
+            <strong>Hook:</strong> One of Baider’s old mercenary crates was stolen, and he suspects a former comrade is planning something dangerous with it — the Ashsteel Formula, a volatile alloy used to make unstable enchanted weapons.<br />
+            <strong>Objective:</strong>
             <ul>
                 <li>Investigate the black market for traces of Ashsteel weapons</li>
                 <li>Track and confront Baider’s old comrade, a half-elf called Fenric Thorne</li>
                 <li>Choose to destroy the formula, return it, or sell it to an interested third party (e.g., Minister Varis)</li>
             </ul>
-
-            <h4>Reward:</h4>
+            <strong>Reward:</strong>
             <ul>
                 <li>Baider reforges a masterwork weapon for the party (counts as +1, but narratively unique)</li>
                 <li>If Kira returns it personally, he gives her Baider’s Forging Token, allowing her to call in one future favor, no matter the cost</li>
             </ul>
-        </section>
+        </p>
+    </div>
 
-        <section>
-            <h2>Hidden Room & Treasure</h2>
-            <p><strong>Location:</strong> Trapdoor under Baider’s bed</p>
-            <p><strong>Lock:</strong> Heavy iron, DC 18 thieves’ tools or Baider’s key (kept in his boot)</p>
-            <p><strong>Chamber Contents:</strong></p>
+    <div class="section hidden">
+        <h2>Hidden Room / Treasure</h2>
+        <p>
+            <strong>Location:</strong> Trapdoor under Baider’s bed<br />
+            <strong>Lock:</strong> Heavy iron, DC 18 thieves’ tools or Baider’s key (kept in his boot)<br />
+            <strong>Chamber Contents:</strong>
             <ul>
                 <li>A cursed longsword with a blackened hilt (when wielded, deals 1d8 necrotic on a crit but whispers to the user)</li>
                 <li>A pair of Runesmithed Gauntlets (+2 to Strength saves while wielding a forge weapon)</li>
                 <li>A locked journal detailing a job Baider regrets: helping build weapons for a dark elf emissary who may have been Varis</li>
             </ul>
-        </section>
+        </p>
+    </div>
 
-        <section>
-            <h2>Monster Stat Block (Optional)</h2>
-            <p>No monsters are immediately present in Baider’s shop — but if the Ashsteel formula is pursued, Ashsteel Revenants or Forged Wraiths may emerge in future quests.</p>
-        </section>
+    <div class="section monsters">
+        <h2>Monsters</h2>
+        <p>
+            No monsters are immediately present in Baider’s shop — but if the Ashsteel formula is pursued, Ashsteel Revenants or Forged Wraiths may emerge in future quests.
+        </p>
+    </div>
 
-    </article>
-
-
+    <div class="footer">
+        &copy; 2025 Kira Coldspring. All rights reserved.
+    </div>
 
 </body>
-</html>
+
+
