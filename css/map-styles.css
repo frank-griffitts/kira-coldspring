@@ -96,9 +96,9 @@ body {
     margin: 2px 0;
 }
 
-    .button:hover, 
+    .button:hover,
     .button:active,
-    .nav-button:hover, 
+    .nav-button:hover,
     .nav-button:active {
         background-color: #885522;
         color: white;
