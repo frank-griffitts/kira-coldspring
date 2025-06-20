@@ -20,7 +20,7 @@
     <!-- Favicon -->
     <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
     <!-- scripts and css-->
-    <script src="js/map01.js"></script>
+    <script src="js/map02.js"></script>
     <script src="js/fullscreen.js" defer></script>
     <script src="js/theme-toggle.js" defer></script>
     <script src="js/index.js" defer></script>
@@ -55,7 +55,7 @@
         <div class="map-container">
 
             <div>
-                <img src="Illustrations/BelladonnaTownship.png" class="title">
+                <img src="Illustrations/HemlockCaverns.png" class="title">
             </div>
 
             <!-- LOCATIONS -->
@@ -68,60 +68,60 @@
 
             <!-- Center node (C) -->
 
-            <div class="location" style="top: 30%; left: 50%;" onclick="openModal('town-square')">
-                <img src="Illustrations/loc-bel-townsquare.png" alt="Town Square" />
-                <div class="tooltip">Town Square</div>
+            <div class="location" style="top: 30%; left: 50%;" onclick="openModal('lost-reliquary')">
+                <img src="Illustrations/loc-yew-lostReliquary.png" alt="Lost Reliquary" />
+                <div class="tooltip">Lost Reliquary</div>
             </div>
 
             <!-- Outer nodes with corrected geometry -->
             <div class="location" style="top: 5%; left: 70%;">
-                <a href="map02.html">
-                    <img src="Illustrations/loc-bel-roadToHemlock.png" alt="North Road to Hemlock" />
+                <a href="map04.html">
+                    <img src="Illustrations/loc-shadow-UmbraThal.png" alt="The Shadow Realm" />
                 </a>
-                <div class="tooltip">North Road to Hemlock</div>
+                <div class="tooltip">Portal to The Shadow Realm</div>
             </div>
 
-            <div class="location" style="top: 15%; left: 50%;" onclick="openModal('onyx-cottage')">
+            <div class="location" style="top: 15%; left: 50%;" onclick="openModal('chamber-portals')">
                 <!-- Node 1 -->
-                <img src="Illustrations/loc-bel-onyx.png" alt="Onyx's Cottage" />
-                <div class="tooltip">Onyx's Cottage</div>
+                <img src="Illustrations/loc-yew-chamberOfPortals.png" alt="Chamber of Portals" />
+                <div class="tooltip">Chamber of Portals</div>
             </div>
 
-            <div class="location" style="top: 22%; left: 25%;" onclick="openModal('apartments')">
+            <div class="location" style="top: 22%; left: 25%;" onclick="openModal('antichamber-sin')">
                 <!-- Node 2 -->
-                <img src="Illustrations/loc-bel-apartments.png" alt="Quiver Row" />
-                <div class="tooltip">Quiver Row</div>
+                <img src="Illustrations/loc-yew-antichamberOfSin.png" alt="Antichamber of Sin" />
+                <div class="tooltip">Antichamber of Sin</div>
             </div>
 
-            <div class="location" style="top: 38%; left: 25%;" onclick="openModal('magistrate')">
+            <div class="location" style="top: 38%; left: 25%;" onclick="openModal('queens-retreat')">
                 <!-- Node 3 -->
-                <img src="Illustrations/loc-bel-magistrate.png" alt="Magistrate" />
-                <div class="tooltip">Magistrate</div>
+                <img src="Illustrations/loc-yew-queensRetreat.png" alt="Queens Retreat" />
+                <div class="tooltip">Hawthorn's Retreat</div>
             </div>
 
-            <div class="location" style="top: 45%; left: 50%;" onclick="openModal('ranger-guild')">
+            <div class="location" style="top: 45%; left: 50%;" onclick="openModal('mercenary-camp')">
                 <!-- Node 4 -->
-                <img src="Illustrations/loc-bel-rangerGuild.png" alt="Ranger's Guild'" />
-                <div class="tooltip">Rangers' Guild</div>
+                <img src="Illustrations/loc-yew-mercenary.png" alt="Mercenary Camp" />
+                <div class="tooltip">Sumacwick Camp</div>
             </div>
 
-            <div class="location" style="top: 38%; left: 75%;" onclick="openModal('wyrmblood-flask')">
+            <div class="location" style="top: 38%; left: 75%;" onclick="openModal('hemlock-falls')">
                 <!-- Node 5 -->
-                <img src="Illustrations/loc-bel-tavern.png" alt="Wyrmblood Flask" />
-                <div class="tooltip">Wyrmblood Flask</div>
+                <img src="Illustrations/loc-yew-hemlockFalls.png" alt="Hemlock Falls" />
+                <div class="tooltip">Hemlock Falls</div>
             </div>
 
-            <div class="location" style="top: 22%; left: 75%;" onclick="openModal('baiders-smithy')">
+            <div class="location" style="top: 22%; left: 75%;" onclick="openModal('catacomb-echoes')">
                 <!-- Node 6 -->
-                <img src="Illustrations/loc-bel-blacksmith.png" alt="Baider's Smithy" />
-                <div class="tooltip">Baider's Smithy</div>
+                <img src="Illustrations/loc-yew-catacombOfEchoes.png" alt="Catacomb of Echoes" />
+                <div class="tooltip">Catacomb of Echoes</div>
             </div>
 
             <div class="location" style="top: 30%; left: 10%;">
                 <a href="map03.html">
-                    <img src="Illustrations/loc-bel-roadToHawthorn.png" alt="Road to Hawthorn" />
+                    <img src="Illustrations/loc-shadow-ruinedTemple.png" alt="Portal to Stormcliff" />
                 </a>                
-                <div class="tooltip">West Road to Hawthorn</div>
+                <div class="tooltip">Portal to Stormcliff</div>
             </div>
 
             <div class="location" style="top: 30%; left: 90%;" onclick="openModal('moonspire')">
@@ -129,9 +129,12 @@
                 <div class="tooltip">Moonspire Temple</div>
             </div>
 
-            <div class="location" style="top: 55%; left: 33%;" onclick="openModal('blackpines')">
-                <img src="Illustrations/loc-bel-blackpines.png" alt="Blackpines Ruins" />
-                <div class="tooltip">Blackpines Ruins</div>
+            <div class="location" style="top: 55%; left: 33%;">
+                <a href="map01.html">
+                    <img src="Illustrations/loc-bel-roadToHemlock.png" alt="Road to Belladonna" />
+                </a>
+                
+                <div class="tooltip">South Road to Belladonna Township</div>
             </div>
 
             <!-- ROUTES (C to each outer node) -->
@@ -229,7 +232,7 @@
             <div class="route" style="top: 50%; left: 42%;">
                 <!-- node 4 to node 11 -->
                 <img src="Illustrations/compassSmall.png" alt="Path'" />
-                <div class="tooltip">South Road to Blackpines... 6 hours by Foot</div>
+                <div class="tooltip">South Road to Belladonna Township... 12 hours by Foot</div>
             </div>
 
         </div>
