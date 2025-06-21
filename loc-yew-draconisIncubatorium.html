@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/location-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">History & NPCs</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1500;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <div class="spacer"></div>
+
+    <header>
+        <h1>DUNGEON MASTERS ONLY</h1>
+        <h1>Location: Draconis Incubatorium – Caverns of Hemlock</h1>
+    </header>
+
+    <div class="section exterior">
+        <img src="Illustrations/loc-yew-draconisIncubatorium.png" alt="Draconis Incubatorium" class="image-wrap" />
+        <h2>Exterior Description</h2>
+        <p>
+            Deep beneath the Catacombs of Echoes, a scorched spiral stairwell descends into a vaulted basalt chamber. At its base stands a massive obsidian gate adorned with petrified dragon claws. Glyphs pulse with sickly green energy, guarding the sanctum.
+            <br><br>
+            <em>Inscription above the gate (in Draconic and Infernal):</em><br>
+            “Their wings shall rise in silence. Speak the name of the First Flame, or feed the nest in pieces.”
+            <br><br>
+            To open the gate, players must:
+            <ul>
+                <li>Speak “Valamandrix” — the true name of the progenitor dragon (lore from the Temple of the Moonspire)</li>
+                <li>Offer dragonborn blood willingly (DC 16 Persuasion)</li>
+                <li>Cast <em>Greater Restoration</em> or <em>Dispel Evil and Good</em> to suppress the glyphs (1 min)</li>
+            </ul>
+            Inside, dim veins of molten amethyst line the walls — dimming further when undead approach.
+        </p>
+    </div>
+
+    <div class="section interior">
+        <h2>Interior Description</h2>
+        <ul>
+            <li><strong>Cradle of Scales:</strong> Broken shells and twisted bones litter the floor. A lingering truth-ward causes pain when lying (1 psychic damage). Hidden beneath cracked banners, a single egg ticks like a heartbeat (DC 17 Investigation reveals it’s alive).</li>
+
+            <li><strong>Gallery of Flame-Callers:</strong> Blackened murals once used to train young dragons. Puzzle: Rotate 4 dragon reliefs to match mural (DC 15 History) to reveal stair to the Magma Heart. Failure triggers a Flameborn Reaver from floor grates.</li>
+
+            <li><strong>Nesting Core:</strong> A central cavern of runed nests and twitching undead hatchlings. At the far end, a skeletal dragon skull cradles the Chalice of Ash — pulsing necrotic power every 2 rounds (heals undead 1d8). Can be sealed with <em>Hallow</em> or 3 DC 15 Religion divine energy channelings.</li>
+        </ul>
+    </div>
+
+    <div class="section stat-blocks">
+        <h2>Stat Blocks</h2>
+        <p>
+            <strong>Droxion, Warden of the Shattered Brood</strong> (Undead Dragonborn Warlock, CR 6)<br />
+            AC: 17 | HP: 95 | Speed: 30 ft.<br />
+            Resistances: Necrotic, Fire, Radiant<br />
+            <strong>Abilities:</strong>
+            <ul>
+                <li><strong>Voice of Ash (1/day):</strong> DC 15 WIS or be frightened and silenced for 1 minute</li>
+                <li><strong>Necrotic Pulse (Recharge 5–6):</strong> 30 ft radius, 5d10 necrotic, DC 15 CON for half</li>
+                <li><strong>Broodlink:</strong> Commands all undead wyrmlings on his initiative</li>
+                <li><strong>Black Oath Blade:</strong> +7 to hit, 2d6 slashing + 2d8 necrotic; WIS DC 14 or frightened if below half HP</li>
+            </ul>
+            <strong>Tactics:</strong> Warns players to leave. Fights with wyrmlings if they persist. Attempts to drag a PC into the Chalice.
+        </p>
+    </div>
+
+    <div class="section backstory">
+        <h2>Backstory</h2>
+        <p>
+            Once guardian of the Incubatorium and loyal to Valamandrix, Droxion was born under the Moon Eclipse. Deceived by Yaldaboath during the Shadowfall, he sacrificed the last clutch of dragon eggs in return for their supposed safety.
+            <br><br>
+            Twisted by necrotic guilt, he now believes undeath may redeem the brood and bring immortality. If shown the Living Egg from the Cradle of Scales, he may hesitate, torn between sorrow and purpose.
+        </p>
+    </div>
+
+    <div class="section side-quest">
+        <h2>Side Quest</h2>
+        <p>
+            <strong>“Ashes of the First Flame”</strong><br />
+            <strong>Trigger:</strong> Discovering the Living Egg or surviving Droxion’s plea<br />
+            <strong>Objective:</strong>
+            <ul>
+                <li>Recover the Living Egg</li>
+                <li>Bring it to the Temple of the Moonspire for purification</li>
+                <li>Defeat or redeem Droxion</li>
+            </ul>
+            <strong>Reward:</strong>
+            <ul>
+                <li><em>Moon-Blessed Hatchling:</em> A bonded young metallic dragon companion</li>
+                <li><em>Permanent +1 to necrotic saves</em> from draconic purity</li>
+                <li>Story hook for Valamandrix’s future return</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section hidden">
+        <h2>Hidden Chamber / Puzzle / Treasure</h2>
+        <p>
+            <strong>Location:</strong> Magma Heart (behind Gallery puzzle)<br />
+            <strong>Treasure:</strong>
+            <ul>
+                <li><em>Heartshard of Valamandrix:</em> Wondrous (rare), grants resistance to fire and necrotic; cast <em>Dragon’s Breath</em> (necrotic) 1/day</li>
+                <li><strong>Lore Fragment:</strong> Prophecy of the Last Flame — a child of dragonkind will redeem or destroy Yew</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section monsters">
+        <h2>Monsters</h2>
+        <p>
+            <strong>Undead Wyrmling</strong> (Medium Undead Dragon, CR 3)<br />
+            AC: 16 | HP: 55 | Speed: 30 ft., fly 40 ft.<br />
+            Resistances: Fire, Necrotic, Poison<br />
+            <strong>Abilities:</strong>
+            <ul>
+                <li><strong>Necrotic Breath (Recharge 5–6):</strong> 15 ft. cone, 4d8 necrotic, DC 14 CON for half</li>
+                <li><strong>Tail Lash:</strong> +6 to hit, 2d6 bludgeoning; target must succeed STR DC 13 or be knocked prone</li>
+                <li><strong>Deathless Instinct:</strong> Advantage on saves vs turn or banishment</li>
+            </ul>
+            <br />
+            <strong>Flameborn Reaver</strong> (Construct-Undead Hybrid, CR 4)<br />
+            AC: 18 | HP: 65 | Speed: 20 ft.<br />
+            <strong>Abilities:</strong>
+            <ul>
+                <li><strong>Molten Slam:</strong> 2d8 fire + 2d8 bludgeoning</li>
+                <li><strong>Ignition Core (1/day):</strong> Explodes on death (6d6 fire, DC 14 DEX for half)</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Kira Coldspring. All rights reserved.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/location-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">History & NPCs</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1500;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <div class="spacer"></div>
+
+    <header>
+        <h1>DUNGEON MASTERS ONLY</h1>
+        <h1>Location: Hemlock Caverns - The Forgotten Reliquary (Level 1)</h1>
+    </header>
+
+    <div class="section exterior">
+        <img src="Illustrations/loc-yew-lostReliquary.png" alt="The Forgotten Reliquary" class="image-wrap" />
+        <h2>Entrance & Overview</h2>
+        <p>
+            Beneath Hemlock Falls, accessed by clearing a collapsed stair tunnel, lies the Forgotten Reliquary — a long-sealed sanctum meant to contain ancient divine relics and the dark powers they once held at bay. The entrance arch bears inscriptions in both Ancient Elvish and Abyssal: <em>“The flame of faith binds the gate. Speak with light, or be cast into shadow.”</em><br /><br />
+            To proceed, adventurers must cast <strong>Light</strong> or <strong>Sacred Flame</strong> on the seal, or offer a divine relic. The passage opens into a chamber heavy with mildew, incense, and forgotten iron.
+        </p>
+    </div>
+
+    <div class="section interior">
+        <h2>Chambers of the Reliquary</h2>
+        <ul>
+            <li><strong>Hall of Forgotten Names:</strong> Cathedral-like with shattered statues of saints and clerics. Every plinth’s name is gouged out, save one: <em>Onyx of the Twilight Flame</em> (DC 18 Investigation). Charisma checks suffer -1 penalty here due to oppressive spiritual unease.</li>
+
+            <li>
+                <strong>The Ember Crucible:</strong> A ritual chamber of ancient braziers. Lighting all three simultaneously with Fire, Radiant, and Shadow magic opens a spiral path to Level 2. Failure triggers:
+                <ul>
+                    <li><em>Radiant Pulse:</em> 3d8 radiant damage to hostile creatures</li>
+                    <li><em>Echo-Wraith emergence:</em> If darkness dominates the chamber</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>Reliquary Chamber Proper:</strong> Rusted shelves and broken display cases. A single glowing case is sealed by celestial runes. Requires a vow of sacrifice (DC 16 Arcana or casting <em>Identify</em>) to unlock.<br />
+                <strong>Inside:</strong>
+                <ul>
+                    <li><em>The Ember Key of Astaroth:</em> Grants access to the Dark Gate. Cast <strong>Wall of Fire</strong> 1/day. Turns necrotic if bearer is infernal or tied to Yaldaboath.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section stat-blocks">
+        <h2>Stat Block: Sentinel of the Flame — Elihast</h2>
+        <p>
+            <strong>Flame Revenant, Former Paladin of Astaroth</strong><br />
+            AC: 18 | HP: 110 | Speed: 30 ft.<br />
+            STR 18 | DEX 14 | CON 16 | INT 10 | WIS 14 | CHA 16<br />
+            Resistances: Fire, Necrotic, Bludgeoning (non-magical)<br />
+            Abilities:
+            <ul>
+                <li><strong>Flame Bindings:</strong> Grapples targets in chains of fire (DC 15 STR save)</li>
+                <li><strong>Sacred Rebirth (1/day):</strong> Explodes for 6d6 fire (20 ft. radius, DC 15 DEX) and reforms at ½ HP</li>
+                <li><strong>Tormented Memory:</strong> Forces 1 PC to relive past failure (disadvantage until healed or damaged)</li>
+            </ul>
+            <strong>Tactics:</strong> Tests players with visions and riddles before allowing them to take the Ember Key. If disrespected, he attacks.
+        </p>
+    </div>
+
+    <div class="section backstory">
+        <h2>Backstory: Elihast</h2>
+        <p>
+            Elihast was the last and greatest paladin of Astaroth, guardian of the Ember Key. When the Moonspire fell, he chose to be bound in undeath rather than surrender his duty. He still believes himself a vessel of divine justice—and that Onyx may yet return to rekindle the flame. Mentioning Onyx by name shifts his demeanor (+2 to Persuasion when appealing to justice or mercy).
+        </p>
+    </div>
+
+    <div class="section side-quest">
+        <h2>Side Quest: "The Final Ember"</h2>
+        <p>
+            <strong>Quest Giver:</strong> Elihast (if spared)<br />
+            <strong>Objective:</strong>
+            <ul>
+                <li>Find the <em>Lantern of Astaroth</em> — hidden in the ruins of the Moonspire or Magistrate’s vault</li>
+            </ul>
+            <strong>Reward:</strong>
+            <ul>
+                <li><em>Elihast’s Blessing:</em> Ember Key used safely without curse</li>
+                <li>+1 to fire or radiant spell attack rolls (for lantern bearer)</li>
+                <li>Unlocks secret path to Heart of the Mountain (skip monster level)</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section hidden">
+        <h2>Hidden Chamber: The Starlit Cell</h2>
+        <p>
+            One cracked wall bears star constellations in relief. Pressing the correct five (DC 17 Religion or History) opens a hidden prayer chamber beneath a magical sky.
+            <ul>
+                <li>Inside: blood-stained cot, ancient journal, and:</li>
+                <li><em>Eye of the Ember Saint:</em> Wondrous Item (rare), attunement</li>
+                <li>Grants 90 ft. Darkvision, advantage vs. charm/fear, 1/day Flame Strike (radiant only)</li>
+            </ul>
+            The journal reveals the Reliquary was never just for protection—it was a prison.
+        </p>
+    </div>
+
+    <div class="section monsters">
+        <h2>Monsters: Echo-Wraiths of the Ember Oath</h2>
+        <p>
+            <strong>Medium Undead, CR 3 (2–4)</strong><br />
+            AC: 15 | HP: 48 | Speed: 0 ft., Fly 40 ft.<br />
+            Resistances: Necrotic, Fire<br />
+            Abilities:
+            <ul>
+                <li><strong>Echo Scream:</strong> DC 14 CON save or 3d6 psychic & lose concentration</li>
+                <li><strong>Burning Remorse (Recharge 5–6):</strong> Target PC with fire vulnerability if they’ve failed a fire save before</li>
+                <li><strong>Possess Ember:</strong> Can hide within or enhance magical flames</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Kira Coldspring. All rights reserved.
+    </div>
+</body>
+</html>

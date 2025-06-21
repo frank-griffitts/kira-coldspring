@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kira Coldspring: The Hunt for Jorsh</title>
+    <meta name="description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ca-pub-4755343976921278" />
+    <meta name="keywords" content="interactive story, fantasy, Kira Coldspring, bounty hunter, elven ranger, choose your own adventure, dungeons and dragons, d&d, sexy female character, half-elf">
+    <meta name="author" content="Frank Griffitts">
+    <meta name="robots" content="index, follow">
+    <meta name="msvalidate.01" content="99B5EBFE4380DECDE770EEBAF0372297" />
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Kira Coldspring: The Hunt for Jorsh">
+    <meta property="og:description" content="An action-packed interactive fantasy novella with swordplay, magic, and romance.">
+    <meta property="og:url" content="https://kiracoldspring.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kiracoldspring.com/Illustrations/KC_logo-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Illustrations/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/location-styles.css">
+
+    <!-- Scripts -->
+    <script src="js/locations.js" defer></script> <!-- NEW: Loads location data -->
+    <script src="js/map.js" defer></script>
+    <script src="js/theme-toggle.js" defer></script>
+    <script src="js/fullscreen.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4755343976921278"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="map01.html" class="nav-button">Map</a>
+            <a href="map-template.html" class="nav-button">History & NPCs</a>
+            <a href="store.html" class="nav-button">Store</a>
+            <a href="https://www.amazon.com/dp/B0F993W3NZ" class="nav-button" target="_blank">Download the eBook</a>
+        </div>
+    </nav>
+
+    <div>
+        <img src="Illustrations/banner_title.png" alt="Kira Coldspring Logo"
+             style="
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        width: 300px;
+                        max-width: 30%;
+                        z-index: 1500;
+                        opacity: 0.9;
+                        pointer-events: none;">
+    </div>
+
+    <div class="spacer"></div>
+
+    <header>
+        <h1>DUNGEON MASTERS ONLY</h1>
+        <h1>Location: Hemlock Caverns - The Catacombs of Echoes</h1>
+    </header>
+
+    <div class="section exterior">
+        <img src="Illustrations/loc-yew-catacombOfEchoes.png" alt="The Catacombs of Echoes" class="image-wrap" />
+        <h2>Entrance & Overview</h2>
+        <p>
+            Directly beneath the Forgotten Reliquary, the Catacombs of Echoes are reached via a spiraling descent through the Ember Crucible. The air grows fetid and warm, thick with mildew and rot. Sound behaves strangely—whispers echo too long, and footsteps rebound with ghostly persistence.
+        </p>
+    </div>
+
+    <div class="section interior">
+        <h2>Chambers of the Catacombs</h2>
+        <ul>
+            <li><strong>Ossuary of the Lost Choir:</strong> Cracked bone shelves line the walls, each skull etched with a rune. <em>DC 15 Religion:</em> Moonspire chanters who died protecting the wards. A discordant sound awakens 1d4 Bone Chanters. A chewed tunnel leads west into the scorpion nest.</li>
+
+            <li><strong>The Whispering Hollow:</strong> A ruined chapel with a broken obsidian altar. Vines twitch despite still air. All hear whispering in Abyssal. <em>DC 13 Wisdom Save:</em> Hallucination of being buried alive. Inside the altar: 🗡 <em>Dagger of Quiet Mercy</em> — +1 weapon, +1d4 psychic damage if wielder is silent that round.</li>
+
+            <li><strong>The Scorpion Nest:</strong> Clay tunnels reinforced with chitin and bone. Dozens of pale eggs. Guarded by 2 Giant Broodmothers and the <em>Scorpion Husk Matron</em>. Corpses of adventurers litter the nest, one clutching a corrupted Trade Ministry sigil.</li>
+        </ul>
+    </div>
+
+    <div class="section stat-blocks">
+        <h2>Stat Blocks</h2>
+        <p>
+            <strong>Giant Scorpion Broodmother</strong> (x2)<br />
+            Large beast, CR 5<br />
+            AC: 15 | HP: 90 | Speed: 40 ft.<br />
+            <strong>Multiattack:</strong> 2 Claws (grapple), 1 Sting (DC 14 CON → 6d10 poison, half on success)<br />
+            <strong>Broodbirth</strong> (Recharge 5–6): Spawns 1d4 Tiny Scorpionlings (AC 13, HP 5, 1d6+2 poison)
+        </p>
+
+        <p>
+            <strong>Scorpion Husk Matron</strong> (Unique, CR 7)<br />
+            Huge fiend-tainted monstrosity<br />
+            AC: 17 | HP: 126 | Speed: 30 ft., burrow 20 ft.<br />
+            <strong>Resistances:</strong> Poison, Fire, Psychic<br />
+            <strong>Abilities:</strong>
+            <ul>
+                <li><strong>Husk Bomb:</strong> 15 ft. acid blast (6d6), targets restrained</li>
+                <li><strong>Telepathic Pulse:</strong> Sends visions or words each round to a PC</li>
+                <li><strong>Echo Cyst (Lair Action):</strong> DC 15 WIS save or stunned by soundless echoes</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section backstory">
+        <h2>Backstory</h2>
+        <p>
+            Once a burial site for Moonspire clergy, the catacombs were corrupted when a Trade Ministry summoner—secretly a cultist of Varis—botched a ritual. The summoning infused local scorpions with infernal essence and weakened the veil between this world and the Demonrealm of Yaldaboath. Now the tainted creatures tunnel toward the Dark Gate, acting as its sentinels.
+        </p>
+    </div>
+
+    <div class="section side-quest">
+        <h2>Side Quest: "Chitin Sigil"</h2>
+        <p>
+            <strong>Found On:</strong> Corpse of a dead mercenary<br />
+            <strong>Objective:</strong>
+            <ul>
+                <li>Deliver the corrupted Trade Ministry sigil to Princess Hawthorn, Liora, or Onyx</li>
+            </ul>
+            <strong>Result:</strong>
+            <ul>
+                <li>Reveals Trade Ministry infiltration beneath Hemlock Caverns</li>
+                <li>Unlocks a political questline involving Varis and the shadow court of Yew</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section hidden">
+        <h2>Hidden Chamber / Puzzle / Treasure</h2>
+        <p>
+            <strong>Location:</strong> Forgotten tunnel near the Whispering Hollow<br />
+            <strong>Puzzle:</strong> DC 17 Perception reveals a tunnel ending in blank stone. When sound echoes (voice or music), a resonance door opens.<br />
+            <strong>Inside:</strong> A perfect sphere chamber with a levitating, shadowless crystal.<br />
+            <strong>Treasure:</strong>
+            <ul>
+                <li><em>Echo Prism of Adonais:</em> +2 Perception (sound), 1/day Silence or Shatter, reacts to Onyx’s presence</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section monsters">
+        <h2>Monsters</h2>
+        <p>
+            <strong>Bone Chanter</strong> (CR 1 Undead)<br />
+            AC: 12 | HP: 22 | Speed: 30 ft.<br />
+            <strong>Features:</strong>
+            <ul>
+                <li><strong>Echo Song:</strong> DC 12 CHA save or disadvantage on next Wisdom save</li>
+                <li><strong>Wail of Discord:</strong> Once per combat, forces 1d4 nearby creatures to make DC 13 CON save or become deafened for 1 minute</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Kira Coldspring. All rights reserved.
+    </div>
+
+</body>
+</html>
