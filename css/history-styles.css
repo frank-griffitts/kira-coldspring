@@ -139,7 +139,7 @@ body {
 /* Location images with responsive size */
 .npc {
     position: absolute;
-    width: clamp(200px, 25vw, 300px);
+    width: clamp(100px, 20vw, 300px);
     max-width: 300px;
     height: auto;
     transform: translate(-50%, -50%);
