@@ -31,13 +31,14 @@ body {
 
 /* Responsive map title */
 .title {
-    position: absolute;
-    top: 10px;
-    left: 20%;
-    transform: translateX(-50%);
-    max-width: 25vw;
-    z-index: 1000;
-    opacity: 0.9;
+    position: fixed;
+    top: 80px; /* adjust based on your nav height */
+    left: 50px;
+    max-width: 30vw; /* responsive width */
+    width: 300px; /* fallback width */
+    height: auto;
+    z-index: 1400;
+    opacity: 0.95;
     pointer-events: none;
 }
 
