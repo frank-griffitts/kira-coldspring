@@ -1,4 +1,4 @@
-﻿// Revised 4/30/2025 10:48 AM - Fixed scoping and startup logic
+// Revised 4/30/2025 10:48 AM - Fixed scoping and startup logic
 
 document.addEventListener('deviceready', onDeviceReady, false);
 

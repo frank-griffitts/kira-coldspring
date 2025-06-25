@@ -2,25 +2,25 @@
 const modalDescriptions = {
     "mercenary-camp": {
         title: "Sumacwick Mercenary Camp",
-        text: "<p>Nestled in the shadow of ancient, crumbling ziggurats, the camp is surrounded by skeletal trees and low-lying fog. Broken columns jut from the earth like jagged teeth, remnants of a civilization long devoured by time. Ramshackle tents and iron-banded wagons form a loose horseshoe shape around a roaring fire pit where a spit roasts some unfortunate forest beast. Banners with false heraldry flap in the windóostensibly a freelance company called the Iron Vulturesóbut subtle sigils of the Ministry are worked into the stitching (DC 15 Investigation to detect). Lanterns glow with green flame, powered by alchemical oil imported from Belladonna.</p>",
+        text: "<p>Nestled in the shadow of ancient, crumbling ziggurats, the camp is surrounded by skeletal trees and low-lying fog. Broken columns jut from the earth like jagged teeth, remnants of a civilization long devoured by time. Ramshackle tents and iron-banded wagons form a loose horseshoe shape around a roaring fire pit where a spit roasts some unfortunate forest beast. Banners with false heraldry flap in the wind‚Äîostensibly a freelance company called the Iron Vultures‚Äîbut subtle sigils of the Ministry are worked into the stitching (DC 15 Investigation to detect). Lanterns glow with green flame, powered by alchemical oil imported from Belladonna.</p>",
         link: "loc-yew-sumacwickCamp.html"
     },
 
     "catacomb-echoes": {
         title: "Catecomb of Echoes",
-        text: "<p>Directly beneath the Forgotten Reliquary, the Catacombs of Echoes are reached via a spiraling descent through the Ember Crucible. The air grows fetid and warm, thick with mildew and rot. Sound behaves strangelyówhispers echo too long, and footsteps rebound with ghostly persistence.</p >",
+        text: "<p>Directly beneath the Forgotten Reliquary, the Catacombs of Echoes are reached via a spiraling descent through the Ember Crucible. The air grows fetid and warm, thick with mildew and rot. Sound behaves strangely‚Äîwhispers echo too long, and footsteps rebound with ghostly persistence.</p >",
         link: "loc-yew-catacombOfEchoes.html"
     },
 
     "hemlock-falls": {
         title: "Hemlock Falls",
-        text: "<p>The Hemlock Falls cascade from a cliff of blackstone, crashing down into a mist-veiled basin surrounded by jagged rocks and twisted hemlock trees. The water is unnaturally clearóalmost silver in moonlightóbut bitterly cold to the touch. During full moons, ghostly figures can be seen reflected in the water that are not present in the material world. The sound of the falls mutes all conversation within 15 feet, granting a sense of both awe and dread. Birds avoid the basin. Animals refuse to drink from it.</p>",
+        text: "<p>The Hemlock Falls cascade from a cliff of blackstone, crashing down into a mist-veiled basin surrounded by jagged rocks and twisted hemlock trees. The water is unnaturally clear‚Äîalmost silver in moonlight‚Äîbut bitterly cold to the touch. During full moons, ghostly figures can be seen reflected in the water that are not present in the material world. The sound of the falls mutes all conversation within 15 feet, granting a sense of both awe and dread. Birds avoid the basin. Animals refuse to drink from it.</p>",
         link: "loc-yew-hemlockFalls.html"
     },
 
     "lost-reliquary": {
         title: "The Lost Reliquary",
-        text: "<p>Beneath Hemlock Falls, accessed by clearing a collapsed stair tunnel, lies the Forgotten Reliquary ó a long-sealed sanctum meant to contain ancient divine relics and the dark powers they once held at bay. The entrance arch bears inscriptions in both Ancient Elvish and Abyssal: ìThe flame of faith binds the gate. Speak with light, or be cast into shadow.î</p>",
+        text: "<p>Beneath Hemlock Falls, accessed by clearing a collapsed stair tunnel, lies the Forgotten Reliquary ‚Äî a long-sealed sanctum meant to contain ancient divine relics and the dark powers they once held at bay. The entrance arch bears inscriptions in both Ancient Elvish and Abyssal: ‚ÄúThe flame of faith binds the gate. Speak with light, or be cast into shadow.‚Äù</p>",
         link: "loc-yew-lostReliquary.html"
     },
 
@@ -32,13 +32,13 @@ const modalDescriptions = {
 
     "queens-retreat": {
         title: "Hawthorns Retreat",
-        text: "<p>Hidden an hourís hike west of Hemlock Falls through thistle-thick trails and moss-choked woods, Hawthornís Retreat appears at first like a ruin swallowed by the forest. A wooden gate set into a hill, veiled by tangled ivy and druidic illusions, conceals a fortified hollow of timber lodges and watch platforms camouflaged among tall pines. Above the entrance is a sigil carved into petrified barkóa stag entwined with thorns, the personal seal of House Hawthorn in exile</p> ",
+        text: "<p>Hidden an hour‚Äôs hike west of Hemlock Falls through thistle-thick trails and moss-choked woods, Hawthorn‚Äôs Retreat appears at first like a ruin swallowed by the forest. A wooden gate set into a hill, veiled by tangled ivy and druidic illusions, conceals a fortified hollow of timber lodges and watch platforms camouflaged among tall pines. Above the entrance is a sigil carved into petrified bark‚Äîa stag entwined with thorns, the personal seal of House Hawthorn in exile</p> ",
         link: "loc-yew-queensRetreat.html"
     },
 
     "incubatorium": {
         title: "Draconis Incubatorium",
-        text: "<p>Deep beneath the Catacombs of Echoes, a scorched spiral stairwell descends into a vaulted basalt chamber. At its base stands a massive obsidian gate adorned with petrified dragon claws. Glyphs pulse with sickly green energy, guarding the sanctum.<br><em>Inscription above the gate (in Draconic and Infernal):</em><br>ìTheir wings shall rise in silence. Speak the name of the First Flame, or feed the nest in pieces.î</p>",
+        text: "<p>Deep beneath the Catacombs of Echoes, a scorched spiral stairwell descends into a vaulted basalt chamber. At its base stands a massive obsidian gate adorned with petrified dragon claws. Glyphs pulse with sickly green energy, guarding the sanctum.<br><em>Inscription above the gate (in Draconic and Infernal):</em><br>‚ÄúTheir wings shall rise in silence. Speak the name of the First Flame, or feed the nest in pieces.‚Äù</p>",
         link: "loc-yew-draconisIncubatorium.html"
     },
             
