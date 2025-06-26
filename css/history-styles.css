@@ -118,7 +118,12 @@ body {
     }
 }
 
-
+.image-wrap {
+    float: right; /* or float: right; for wrapping on the other side */
+    width: 30%; /* adjust the desired width */
+    height: auto; /* maintain aspect ratio */
+    margin-right: 15px; /* adjust spacing between image and text */
+}
 
 
 /* MAP */

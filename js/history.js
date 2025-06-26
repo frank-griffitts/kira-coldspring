@@ -25,14 +25,6 @@ const modalDescriptions = {
                 <li><strong>Wisdom:</strong> 16 (+3)</li>
                 <li><strong>Charisma:</strong> 12 (+1)</li>
             </ul>
-            <p>
-                <strong>Saving Throws:</strong> Strength +4, Dexterity +7<br />
-                <strong>Passive Perception:</strong> 16<br />
-                <strong>Proficiency Bonus:</strong> +3<br />
-                <strong>Armor Class:</strong> 16 (Studded Leather + Dex)<br />
-                <strong>Hit Points:</strong> 44<br />
-                <strong>Speed:</strong> 35 ft
-            </p>
         `,
         link: "npcKiraColdspring.html"
     },
@@ -64,31 +56,6 @@ const modalDescriptions = {
                 <li><strong>Wisdom:</strong> 12 (+1)</li>
                 <li><strong>Charisma:</strong> 8 (−1)</li>
             </ul>
-
-            <p>
-                <strong>Saving Throws:</strong> Strength +7, Constitution +6<br>
-                <strong>Passive Perception:</strong> 11<br>
-                <strong>Proficiency Bonus:</strong> +3<br>
-                <strong>Armor Class:</strong> 17 (Chainmail + Shield)<br>
-                <strong>Hit Points:</strong> 55<br>
-                <strong>Speed:</strong> 30 ft
-            </p>
-
-            <p><strong>Proficiencies & Skills:</strong></p>
-            <ul>
-                <li><strong>Armor:</strong> All armor, shields</li>
-                <li><strong>Weapons:</strong> Simple and martial weapons</li>
-                <li><strong>Tools:</strong> Smith’s tools, Mason’s tools</li>
-                <li><strong>Languages:</strong> Common, Orc, Dwarvish</li>
-                <li><strong>Skill Proficiencies:</strong>
-                    <ul>
-                        <li>Athletics (+7)</li>
-                        <li>Intimidation (+2)</li>
-                        <li>Survival (+4)</li>
-                        <li>Smith’s Tools (+6)</li>
-                    </ul>
-                </li>
-            </ul>
         `,
         link: "npcBaiderGrenmallet.html"
     },
@@ -116,24 +83,6 @@ const modalDescriptions = {
             <strong>Intelligence:</strong> 14 (+2)<br/>
             <strong>Wisdom:</strong> 18 (+4)<br/>
             <strong>Charisma:</strong> 12 (+1)</p>
-
-            <p><strong>Saving Throws:</strong> Wisdom +7, Charisma +4<br/>
-            <strong>Passive Perception:</strong> 14<br/>
-            <strong>Proficiency Bonus:</strong> +3<br/>
-            <strong>Armor Class:</strong> 18 (Chainmail + Shield)<br/>
-            <strong>Hit Points:</strong> 47<br/>
-            <strong>Speed:</strong> 25 ft</p>
-
-            <p><strong>Proficiencies &amp; Skills:</strong><br/>
-            <strong>Armor:</strong> Light, Medium, Heavy, Shields<br/>
-            <strong>Weapons:</strong> Simple weapons, warhammers<br/>
-            <strong>Tools:</strong> Brewer's tools, Calligrapher's supplies<br/>
-            <strong>Languages:</strong> Common, Dwarvish, Celestial, Abyssal<br/>
-            <strong>Skill Proficiencies:</strong><br/>
-            Religion (+5)<br/>
-            Insight (+7)<br/>
-            History (+5)<br/>
-            Medicine (+7)</p>
         `,
         link: "npcOnyxDraAdonais.html"
     },
@@ -164,28 +113,6 @@ const modalDescriptions = {
             Wisdom: 16 (+3)<br />
             Charisma: 10 (+0)
         </p>
-        <p>
-            <strong>Saving Throws:</strong> Strength +4, Dexterity +6<br />
-            <strong>Passive Perception:</strong> 16<br />
-            <strong>Proficiency Bonus:</strong> +3<br />
-            <strong>Armor Class:</strong> 16 (Studded Leather + Dex)<br />
-            <strong>Hit Points:</strong> 52<br />
-            <strong>Speed:</strong> 30 ft<br />
-            <strong>Initiative:</strong> +3
-        </p>
-        <p><strong>Proficiencies & Skills:</strong><br />
-            <strong>Armor:</strong> Light armor, medium armor, shields<br />
-            <strong>Weapons:</strong> Simple weapons, martial weapons<br />
-            <strong>Tools:</strong> Herbalism kit<br />
-            <strong>Languages:</strong> Common, Elvish, Sylvan
-        </p>
-        <p><strong>Skill Proficiencies:</strong><br />
-            Survival (+6)<br />
-            Perception (+6)<br />
-            Athletics (+4)<br />
-            Nature (+3)<br />
-            Stealth (+6)
-        </p>
     `,
         link: "npcEliasGreyfeld.html"
     },
@@ -214,33 +141,6 @@ const modalDescriptions = {
         <li><strong>Intelligence:</strong> 12 (+1)</li>
         <li><strong>Wisdom:</strong> 10 (+0)</li>
         <li><strong>Charisma:</strong> 18 (+4)</li>
-      </ul>
-
-      <p>
-        <strong>Saving Throws:</strong> Constitution +5, Charisma +7<br/>
-        <strong>Passive Perception:</strong> 10<br/>
-        <strong>Proficiency Bonus:</strong> +3<br/>
-        <strong>Armor Class:</strong> 15 (Mage Armor)<br/>
-        <strong>Hit Points:</strong> 42<br/>
-        <strong>Speed:</strong> 30 ft<br/>
-        <strong>Initiative:</strong> +2
-      </p>
-
-      <p><strong>Proficiencies & Skills:</strong></p>
-      <ul>
-        <li><strong>Armor:</strong> Magic Plate (+3 AC)</li>
-        <li><strong>Weapons:</strong> Daggers, slings, quarterstaffs, light crossbows</li>
-        <li><strong>Tools:</strong> Calligrapher’s supplies</li>
-        <li><strong>Languages:</strong> Common, Elvish, Infernal, Draconic</li>
-        <li><strong>Skills:</strong>
-          <ul>
-            <li>Insight +3</li>
-            <li>Persuasion +7</li>
-            <li>History +4</li>
-            <li>Deception +7</li>
-            <li>Arcana +4</li>
-          </ul>
-        </li>
       </ul>
     `,
         link: "npcDarcianneHawthorn.html"
@@ -274,45 +174,6 @@ const modalDescriptions = {
         <li><strong>Wisdom:</strong> 14 (+2)</li>
         <li><strong>Charisma:</strong> 12 (+1)</li>
       </ul>
-
-      <p>
-        <strong>Saving Throws:</strong> Intelligence +7, Wisdom +5<br>
-        <strong>Skills:</strong> Arcana +7, History +7, Insight +5, Persuasion +4<br>
-        <strong>Languages:</strong> Common, Elvish, Draconic, Infernal, Abyssal<br>
-        <strong>Proficiency Bonus:</strong> +3<br>
-        <strong>Armor Class:</strong> 14 (Mage Armor or enchanted robes)<br>
-        <strong>Hit Points:</strong> 39 (7d6 + 7)<br>
-        <strong>Speed:</strong> 30 ft<br>
-        <strong>Initiative:</strong> +2
-      </p>
-
-      <p><strong>Features & Traits:</strong></p>
-      <ul>
-        <li><strong>Arcane Recovery (1/day):</strong> Regain spell slots up to half her wizard level after a short rest.</li>
-        <li><strong>Divination Savant:</strong> Halved time/gold to copy divination spells into spellbook.</li>
-        <li><strong>Portent (2/day):</strong> Roll two d20s after a long rest. Replace rolls with these results.</li>
-        <li><strong>Elven Accuracy:</strong> Reroll one die on attacks using Dex, Int, Wis, or Cha when you have advantage.</li>
-        <li><strong>Fey Ancestry:</strong> Advantage on saves vs charm; immune to magical sleep.</li>
-      </ul>
-
-      <p><strong>Spellcasting:</strong></p>
-      <ul>
-        <li><strong>Spellcasting Ability:</strong> Intelligence (Save DC 15, +7 to hit)</li>
-        <li><strong>Spell Slots:</strong>
-          <ul>
-            <li>1st level: 4 slots</li>
-            <li>2nd level: 3 slots</li>
-            <li>3rd level: 3 slots</li>
-            <li>4th level: 1 slot</li>
-          </ul>
-        </li>
-        <li><strong>Prepared Spells (11 total):</strong></li>
-        <li><strong>Cantrips:</strong> Prestidigitation, Mage Hand, Ray of Frost, Message</li>
-        <li><strong>1st Level:</strong> Shield, Mage Armor, Detect Magic, Comprehend Languages</li>
-        <li><strong>2nd Level:</strong> Mirror Image, Misty Step, Augury</li>
-        <li><strong>3rd Level:</strong> Counterspell, Dispel Magic, Clairvoyance</li>
-        <li><strong>4th Level:</strong> Arcane Eye</li>
-      </ul>
     `,
         link: "npcLioraSilverhauk.html"
     },
@@ -342,32 +203,6 @@ const modalDescriptions = {
         <li><strong>Wisdom:</strong> 16 (+3)</li>
         <li><strong>Charisma:</strong> 13 (+1)</li>
       </ul>
-
-      <p><strong>Saving Throws:</strong> Strength +4, Dexterity +7<br />
-      <strong>Passive Perception:</strong> 16<br />
-      <strong>Proficiency Bonus:</strong> +3<br />
-      <strong>Armor Class:</strong> 17 (Studded Leather + Dex)<br />
-      <strong>Hit Points:</strong> 54<br />
-      <strong>Speed:</strong> 30 ft<br />
-      <strong>Initiative:</strong> +4</p>
-
-      <h4>Proficiencies & Skills:</h4>
-      <ul>
-        <li><strong>Armor:</strong> Light, medium, shields</li>
-        <li><strong>Weapons:</strong> Simple and martial weapons</li>
-        <li><strong>Tools:</strong> Herbalism kit, woodcarver’s tools</li>
-        <li><strong>Languages:</strong> Common, Elvish, Sylvan, Thieves’ Cant</li>
-        <li><strong>Skill Proficiencies:</strong>
-          <ul>
-            <li>Stealth (+7)</li>
-            <li>Survival (+6)</li>
-            <li>Insight (+6)</li>
-            <li>Perception (+6)</li>
-            <li>Nature (+3)</li>
-            <li>Animal Handling (+6)</li>
-          </ul>
-        </li>
-      </ul>
     `,
         link: "npcRellenThornwatch.html"
     },
@@ -381,17 +216,6 @@ const modalDescriptions = {
         <strong>Alignment:</strong> Chaotic Neutral (flirting with Chaotic Evil)<br />
         <strong>Role:</strong> Antagonist, tragic antihero, dark sorcerer<br />
         <strong>Challenge Rating:</strong> 9 (5,000 XP)</p>
-
-        <h3>Backstory</h3>
-        <p>Once a bright and curious boy in Belladonna, Jorsh grew up alongside Kira Coldspring, sharing dreams of becoming rangers and defending the realm. But the fall of his family — falsely accused of treason — shattered his innocence. Shunned and humiliated, Jorsh turned to forbidden lore, eventually making a pact with the Morvalya Val'Thorin to seek truth and justice by any means necessary.</p>
-        <p>Now known as “The Betrayer,” Jorsh seeks a lost artifact in Hemlock Falls that could protect the realm or doom it — depending on his fraying state of mind.</p>
-
-        <h3>Character Traits</h3>
-        <p><strong>Ideal:</strong> “I must never be powerless again.”<br />
-        <strong>Bond:</strong> “Kira is the only thing left that matters. Even if she hates me.”<br />
-        <strong>Flaw:</strong> “I believe only I can fix what’s broken — no one else understands.”</p>
-
-        <h3>Combat Stats</h3>
         <p><strong>Armor Class:</strong> 16 (Mage Armor)<br />
         <strong>Hit Points:</strong> 112 (11d6 + 44)<br />
         <strong>Speed:</strong> 30 ft.</p>
@@ -405,19 +229,6 @@ const modalDescriptions = {
             <li><strong>Wisdom:</strong> 12</li>
             <li><strong>Charisma:</strong> 20</li>
         </ul>
-
-        <h3>Saving Throws</h3>
-        <p>Constitution +8, Charisma +9, Dexterity +6</p>
-
-        <h3>Skills</h3>
-        <p>Arcana +8, Insight +5, Deception +9, Persuasion +8, Stealth +6</p>
-
-        <h3>Resistances & Immunities</h3>
-        <p><strong>Damage Resistances:</strong> Necrotic, Psychic<br />
-        <strong>Condition Immunities:</strong> Charmed, Frightened (while in dim light or darkness)</p>
-
-        <h3>Languages</h3>
-        <p>Common, Elvish, Deep Speech</p>
     `,
         link: "npcJorshSablevein.html"
     },
@@ -446,21 +257,6 @@ const modalDescriptions = {
         <li>Wisdom: 14 (+2)</li>
         <li>Charisma: 20 (+5)</li>
       </ul>
-
-      <h4>Skills & Abilities</h4>
-      <ul>
-        <li><strong>Saving Throws:</strong> Dex +8, Wis +6, Cha +9</li>
-        <li><strong>Skills:</strong> Arcana +8, Deception +9, Insight +6, Persuasion +9, Stealth +8</li>
-        <li><strong>Damage Resistances:</strong> Psychic, Necrotic</li>
-        <li><strong>Senses:</strong> Darkvision 120 ft., Passive Perception 12</li>
-        <li><strong>Languages:</strong> Common, Elvish, Undercommon, Infernal</li>
-        <li><strong>Challenge:</strong> 10 (5,900 XP)</li>
-      </ul>
-
-      <h3>Rumors</h3>
-      <p>
-        Now serving as Minister of Trade, Varis moves unseen through the highest tiers of power, spreading the influence of the Deep Court, and preparing the surface for his master's awakening beneath Hemlock Caverns.
-      </p>
     `,
         link: "npcVarisDarknettle.html"
     },
@@ -492,30 +288,6 @@ const modalDescriptions = {
       <strong>Skills:</strong> Arcana +12, Insight +8, Deception +10<br />
       <strong>Senses:</strong> Darkvision 120 ft, passive Perception 15<br />
       <strong>Languages:</strong> Common, Elvish, Undercommon, Shadowtongue</p>
-
-      <p><strong>Traits:</strong></p>
-      <ul>
-        <li><strong>Shadow Step (3/Day):</strong> Teleport up to 60 ft through dim light or darkness.</li>
-        <li><strong>Dominate Surface-Born (1/Day):</strong> One surface-dwelling humanoid within 60 ft must succeed on a DC 18 Wisdom saving throw or be charmed for 1 hour.</li>
-        <li><strong>Legendary Actions (3 per round):</strong>
-          <ul>
-            <li>Cast a cantrip</li>
-            <li>Teleport 30 ft in dim light</li>
-            <li>Siphon Light: Extinguish all nonmagical light sources within 30 ft</li>
-          </ul>
-        </li>
-      </ul>
-
-      <p><strong>Spellcasting:</strong></p>
-      <ul>
-        <li><em>At Will:</em> Mage Hand, Minor Illusion, Prestidigitation</li>
-        <li><em>3/day:</em> Counterspell, Greater Invisibility, Wall of Force</li>
-        <li><em>1/day:</em> Dominate Person, Plane Shift (Shadow Realm only), Disintegrate</li>
-      </ul>
-
-      <p><strong>Backstory – The Rise of Queen Morvelya:</strong><br />
-      Once a war sorceress from a minor noble house, Morvelya ascended the throne of Umbra'Thal through a pact with Yaldaboath, Demon King of Memory and Betrayal. She assassinated the former king using soul-poison and bound the royal bloodline to her own. Her reign is fueled by vengeance, especially toward the surface-dwelling Coldspring line, whom she considers traitors to drowkind.<br />
-      Though once an ally of Minister Varis, their relationship ended violently when he failed to eliminate Elira. Morvelya now offers a bounty for both cousins—Darcianne and Elira—and works in secret to weaken the magical seals protecting the Realm of Light.</p>
     `,
         link: "npcMorvelyaValThorin.html"
     },
@@ -541,15 +313,8 @@ const modalDescriptions = {
         <li><strong>Wisdom:</strong> 14 (+2)</li>
         <li><strong>Charisma:</strong> 16 (+3)</li>
       </ul>
-
-      <p><strong>Saving Throws:</strong> Wisdom +4, Charisma +5</p>
-      <p><strong>Skills:</strong> Arcana +3, Insight +4, Persuasion +5, Deception +5</p>
-      <p><strong>Damage Resistances:</strong> Psychic, Necrotic</p>
-      <p><strong>Condition Immunities:</strong> Charmed, Frightened</p>
-      <p><strong>Senses:</strong> Darkvision 120 ft., Passive Perception 12</p>
-      <p><strong>Languages:</strong> Common, Elvish, Deep Speech, Undercommon</p>
     `,
-        link: "npcYitrhaGristletoe.html"
+        link: "npcYithraGristletoe.html"
     }
             
 

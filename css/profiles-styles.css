@@ -1,0 +1,232 @@
+/* profiles-styles.css */
+
+/* GENERAL RESET */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* only hide horizontal overflow */
+    height: 100%;
+}
+
+
+body {
+    padding-top: 80px; /* your global top padding */
+    box-sizing: border-box;
+    background-image: url('../Illustrations/npcHistory.jpg'); /* or adjust the path as needed */
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed; /* optional: keeps background steady while scrolling */
+    background-color: #f8f5e1; /* fallback background */
+}
+
+
+
+.logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    max-width: 60vw;
+    z-index: 1500;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+/* Responsive map title */
+.title {
+    position: fixed;
+    top: 80px; /* adjust based on your nav height */
+    left: 50px;
+    max-width: 30vw; /* responsive width */
+    width: 300px; /* fallback width */
+    height: auto;
+    z-index: 1400;
+    opacity: 0.95;
+    pointer-events: none;
+}
+
+
+/* NAV CONTAINER */
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+/* HAMBURGER BUTTON */
+.hamburger {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+
+/* NAV LINKS - HIDDEN BY DEFAULT */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+    /* TOGGLED OPEN */
+    .nav-links.open {
+        display: flex;
+    }
+
+/* NAV BUTTON STYLE */
+.button, .nav-button {
+    background-color: #554433;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin: 2px 0;
+}
+
+    .button:hover,
+    .button:active,
+    .nav-button:hover,
+    .nav-button:active {
+        background-color: #885522;
+        color: white;
+    }
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.image-wrap {
+    float: right; /* or float: left; for wrapping on the other side */
+    width: 30%; /* adjust the desired width */
+    height: auto; /* maintain aspect ratio */
+    margin-right: 100px; /* adjust spacing between image and text */
+}
+
+/* Overall container styling */
+.npc-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+/* Base styling for headers */
+    .npc-profile h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 1em;
+        background-color: rgba(255, 255, 255, 0.5); /* white with 50% opacity */
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+
+.npc-profile h2 {
+  margin-top: 2em;
+  font-size: 1.5em;
+  border-bottom: 2px solid #a1887f;
+  padding-bottom: 0.25em;
+}
+
+/* Alternate section background colors */
+.npc-profile ul,
+.npc-profile table,
+.npc-profile ol {
+  background-color: #fdf6e3;
+  padding: 20px;
+  margin: 0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.npc-profile ul:nth-of-type(even),
+.npc-profile table:nth-of-type(even),
+.npc-profile ol:nth-of-type(even) {
+  background-color: #f5e1c9;
+}
+
+.npc-profile ul:nth-of-type(odd),
+.npc-profile table:nth-of-type(odd),
+.npc-profile ol:nth-of-type(odd) {
+  background-color: #fef3e0;
+}
+
+/* Table styling */
+.npc-profile table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.npc-profile th,
+.npc-profile td {
+  border: 1px solid #d7ccc8;
+  padding: 10px;
+  text-align: center;
+}
+
+.npc-profile th {
+  background-color: #d7ccc8;
+  font-weight: bold;
+}
+
+/* Margin between sections */
+.npc-profile section {
+  margin-bottom: 30px;
+}
+
+/* Quotes list spacing */
+.npc-profile ol {
+  padding-left: 20px;
+}
+
+/* Add spacing and styling to nested lists */
+.npc-profile ul ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Text styling for emphasis */
+.npc-profile strong {
+  color: #5d4037;
+}
+
+/* Optional: responsive padding */
+@media screen and (min-width: 1200px) {
+  .npc-profile {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .npc-profile {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
