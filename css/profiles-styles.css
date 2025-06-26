@@ -149,8 +149,13 @@ body {
 .npc-profile h2 {
   margin-top: 2em;
   font-size: 1.5em;
-  border-bottom: 2px solid #a1887f;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
   padding-bottom: 0.25em;
+}
+
+.npc-profile h3 {
+    color: #ffffff;
 }
 
 /* Alternate section background colors */
