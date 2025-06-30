@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .logo {
     position: fixed;
     top: 20px;
@@ -118,13 +117,10 @@ body {
     }
 }
 
-
-
-
 /* MAP */
 
 .map-scroll-wrapper {
-    height: 100vh; /* full screen minus top padding */
+    height: 100vh; 
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
@@ -133,9 +129,10 @@ body {
 .map-container {
     position: relative;
     width: 100%;
-    height: 250vh;
-    padding-bottom: 200px; /* prevents content from being obscured */
+    height: 150vh;
+    padding-bottom: 50px;
 }
+
 
 /* Location images with responsive size */
 .location {
@@ -159,6 +156,62 @@ body {
 .location:hover .tooltip {
     display: block;
 }
+
+.location-section {
+    background: url('parchment.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 2rem;
+    border: 2px solid #5a4323;
+    border-radius: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b2f1e;
+    border-bottom: 1px solid #9b7f58;
+    margin-bottom: 1rem;
+}
+
+.location-group-title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #5a3c22;
+    text-shadow: 1px 1px #d5c3a1;
+}
+
+.location-description {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.location-list {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.location-item {
+    margin: 0.5rem 0;
+    color: #2f1e0f;
+}
+
+.location-label {
+    font-weight: bold;
+}
+
+.location-link {
+    text-decoration: none;
+    color: #6b3e0f;
+    font-weight: 600;
+}
+
+    .location-link:hover {
+        color: #a66321;
+        text-decoration: underline;
+    }
+
+
 
 /* ROUTE LINES */
 .route {
@@ -197,42 +250,7 @@ body {
     z-index: 1300;
 }
 
-/* MODAL */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-}
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #885522;
-    width: 80%;
-    max-width: 400px;
-    position: relative;
-    border-radius: 10px;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-    .close:hover {
-        color: #000;
-    }
 
 /* FADE-IN ANIMATION */
 @keyframes fadeIn {
